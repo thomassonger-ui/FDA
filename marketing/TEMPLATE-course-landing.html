@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Radiography for Dental Personnel — Florida Institute of Dental Assisting</title>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Inter:wght@400;500;700&family=Roboto:wght@500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --fida-navy: #012D50;
+    --fida-navy-dark: #023C6A;
+    --fida-teal: #40CDD0;
+    --fida-teal-light: #9EFCFF;
+    --fida-teal-hover: #48C3C6;
+    --fida-aqua-wash: #F4FBFB;
+    --fida-text: #4F4F4F;
+    --fida-ink: #111111;
+    --fida-white: #FFFFFF;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'Inter', sans-serif;
+    color: var(--fida-text);
+    line-height: 1.6;
+    background: var(--fida-white);
+  }
+
+  /* UTILITY BAR */
+  .utility-bar {
+    background: var(--fida-navy-dark);
+    color: var(--fida-white);
+    font-size: 13px;
+    padding: 8px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+  }
+  .utility-bar a { color: var(--fida-teal-light); text-decoration: none; }
+
+  /* HEADER */
+  header.site {
+    background: var(--fida-navy);
+    padding: 18px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
+    color: var(--fida-white);
+    line-height: 1.1;
+  }
+  .logo span { color: var(--fida-teal); display: block; font-size: 13px; letter-spacing: 1px; font-weight: 400; }
+  nav.primary ul { list-style: none; display: flex; gap: 28px; align-items: center; }
+  nav.primary a {
+    color: var(--fida-white);
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  nav.primary a:hover { color: var(--fida-teal); }
+  nav.primary a.active { color: var(--fida-teal); border-bottom: 2px solid var(--fida-teal); padding-bottom: 4px; }
+
+  /* BUTTONS */
+  .btn-primary {
+    display: inline-block;
+    background: linear-gradient(0deg, #40CDD0 0%, #9EFCFF 100%);
+    color: var(--fida-navy);
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 16px 32px;
+    border-radius: 4px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .btn-primary:hover { background: var(--fida-teal-hover); }
+  .btn-secondary {
+    display: inline-block;
+    background: var(--fida-white);
+    color: var(--fida-navy);
+    border: 2px solid var(--fida-navy);
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 14px 30px;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .btn-secondary:hover { background: var(--fida-navy); color: var(--fida-white); }
+
+  /* HERO */
+  .hero {
+    position: relative;
+    background: linear-gradient(rgba(1,45,80,0.85), rgba(1,45,80,0.7)),
+                url('https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=1600&auto=format&fit=crop') center/cover;
+    color: var(--fida-white);
+    padding: 100px 24px 120px;
+    text-align: center;
+  }
+  .eyebrow {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--fida-teal);
+    margin-bottom: 16px;
+  }
+  .hero h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: clamp(40px, 7vw, 80px);
+    letter-spacing: -2px;
+    line-height: 1;
+    margin-bottom: 24px;
+  }
+  .hero .subhead {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    max-width: 720px;
+    margin: 0 auto 32px;
+    line-height: 1.5;
+  }
+  .hero .meta {
+    display: inline-flex;
+    gap: 32px;
+    margin-bottom: 32px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: var(--fida-teal-light);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  .hero .meta span strong { color: var(--fida-white); display: block; font-family: 'Oswald', sans-serif; font-size: 28px; font-weight: 500; }
+  .hero .cta-row { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+
+  /* SECTIONS */
+  section { padding: 80px 24px; }
+  .container { max-width: 1100px; margin: 0 auto; }
+  .section-label {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--fida-teal-hover);
+    text-align: center;
+    margin-bottom: 8px;
+  }
+  h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: clamp(28px, 4vw, 44px);
+    letter-spacing: -1px;
+    color: var(--fida-navy);
+    text-align: center;
+    margin-bottom: 16px;
+    line-height: 1.1;
+  }
+  .lead {
+    text-align: center;
+    max-width: 720px;
+    margin: 0 auto 48px;
+    font-size: 17px;
+  }
+
+  /* PILLARS */
+  .pillars {
+    background: var(--fida-aqua-wash);
+  }
+  .pillar-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 24px;
+  }
+  .pillar {
+    background: var(--fida-white);
+    padding: 32px 24px;
+    border-radius: 4px;
+    border-top: 4px solid var(--fida-teal);
+    box-shadow: 0 2px 10px rgba(1,45,80,0.06);
+  }
+  .pillar h3 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--fida-navy);
+    font-size: 22px;
+    margin-bottom: 12px;
+    letter-spacing: -0.5px;
+  }
+  .pillar .icon {
+    width: 56px; height: 56px; border-radius: 50%;
+    background: var(--fida-aqua-wash);
+    display: flex; align-items: center; justify-content: center;
+    margin-bottom: 16px; font-size: 28px;
+  }
+
+  /* STATS */
+  .stats {
+    background: var(--fida-navy);
+    color: var(--fida-white);
+  }
+  .stats h2 { color: var(--fida-white); }
+  .stats .section-label { color: var(--fida-teal-light); }
+  .stat-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 32px;
+    margin-top: 32px;
+    text-align: center;
+  }
+  .stat-num {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 64px;
+    color: var(--fida-teal);
+    line-height: 1;
+    letter-spacing: -2px;
+  }
+  .stat-label {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    margin-top: 8px;
+    color: var(--fida-teal-light);
+  }
+
+  /* CURRICULUM */
+  .curriculum-list { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; max-width: 900px; margin: 0 auto; }
+  .topic {
+    background: var(--fida-aqua-wash);
+    border-left: 3px solid var(--fida-teal);
+    padding: 14px 18px;
+    font-size: 15px;
+    color: var(--fida-ink);
+    font-weight: 500;
+  }
+  .topic-num { color: var(--fida-teal-hover); font-weight: 700; margin-right: 10px; font-family: 'Oswald', sans-serif; }
+
+  /* COMPLIANCE BAND */
+  .compliance {
+    background: var(--fida-aqua-wash);
+    border-top: 2px solid var(--fida-teal);
+    border-bottom: 2px solid var(--fida-teal);
+    text-align: center;
+  }
+  .compliance .badge-row { display: flex; justify-content: center; gap: 40px; flex-wrap: wrap; align-items: center; margin-top: 24px; }
+  .badge {
+    padding: 12px 20px;
+    background: var(--fida-white);
+    border: 1px solid var(--fida-navy);
+    border-radius: 4px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    color: var(--fida-navy);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+  }
+
+  /* CTA BAND */
+  .cta-band {
+    background: linear-gradient(135deg, var(--fida-navy) 0%, var(--fida-navy-dark) 100%);
+    color: var(--fida-white);
+    text-align: center;
+  }
+  .cta-band h2 { color: var(--fida-white); }
+  .cta-band .lead { color: var(--fida-teal-light); }
+
+  /* FOOTER */
+  footer {
+    background: var(--fida-navy);
+    color: var(--fida-white);
+    padding: 40px 24px 24px;
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+  }
+  footer a { color: var(--fida-teal-light); text-decoration: none; margin: 0 12px; }
+
+  @media (max-width: 720px) {
+    nav.primary ul { display: none; }
+    .curriculum-list { grid-template-columns: 1fr; }
+    .hero .meta { flex-direction: column; gap: 16px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="utility-bar">
+  <span>Classes Begin March 16, 2026 &nbsp;·&nbsp; FAC 64B5-9.011 Compliant</span>
+  <span><a href="tel:+19046743131">📞 904-674-3131</a> &nbsp;|&nbsp; <a href="#apply">Apply Now</a></span>
+</div>
+
+<header class="site">
+  <div class="logo">FIDA<span>Florida Institute of Dental Assisting</span></div>
+  <nav class="primary">
+    <ul>
+      <li><a href="#">Our Program</a></li>
+      <li><a href="#" class="active">CE Courses</a></li>
+      <li><a href="#">Tuition</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#apply" class="btn-primary" style="padding: 10px 20px; font-size: 12px;">Apply Now</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="eyebrow">Continuing Education · Florida Board of Dentistry Approved</div>
+  <h1>Radiography<br>for Dental Personnel</h1>
+  <p class="subhead">Earn the state-required radiography credential to safely expose and evaluate dental images — fully online, self-paced, and compliant with Florida Administrative Code 64B5-9.011.</p>
+  <div class="meta">
+    <span><strong>40+</strong>Clock Hours</span>
+    <span><strong>16</strong>Modules</span>
+    <span><strong>100%</strong>Online</span>
+  </div>
+  <div class="cta-row">
+    <a href="#apply" class="btn-primary">Enroll Now</a>
+    <a href="#curriculum" class="btn-secondary" style="color: white; border-color: white;">View Curriculum</a>
+  </div>
+</section>
+
+<section class="pillars">
+  <div class="container">
+    <div class="section-label">Why This Course</div>
+    <h2>Built for Busy Dental Teams</h2>
+    <p class="lead">Experienced instructors. Flexible pacing. Real compliance. Start your radiography credential today and finish on your schedule.</p>
+    <div class="pillar-grid">
+      <div class="pillar">
+        <div class="icon">🎓</div>
+        <h3>Experienced Faculty</h3>
+        <p>Learn from instructors with 30+ years of dental-office experience. We teach the "why" behind every exposure — not just the "how."</p>
+      </div>
+      <div class="pillar">
+        <div class="icon">📚</div>
+        <h3>16 Focused Modules</h3>
+        <p>From radiation physics to infection control, digital imaging, and patient safety — every FAC 64B5-9.011 topic covered in plain language.</p>
+      </div>
+      <div class="pillar">
+        <div class="icon">✅</div>
+        <h3>State-Compliant</h3>
+        <p>Meets Florida Board of Dentistry requirements. Pass the course, download your certificate, start placing films the same day.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="stats">
+  <div class="container">
+    <div class="section-label">The Numbers Are In</div>
+    <h2>Florida Needs Credentialed Radiographers</h2>
+    <div class="stat-grid">
+      <div><div class="stat-num">21,390</div><div class="stat-label">Dental assistants employed in Florida</div></div>
+      <div><div class="stat-num">80%</div><div class="stat-label">Of practices report hiring difficulty</div></div>
+      <div><div class="stat-num">$40K</div><div class="stat-label">Average starting salary in Florida</div></div>
+      <div><div class="stat-num">3rd</div><div class="stat-label">Florida's national ranking</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="curriculum">
+  <div class="container">
+    <div class="section-label">Curriculum</div>
+    <h2>16 Modules Covering the Full FAC Standard</h2>
+    <p class="lead">Every topic required under Florida Administrative Code 64B5-9.011 — broken into bite-sized lessons with quizzes, hands-on exercises, and instructor feedback.</p>
+    <div class="curriculum-list">
+      <div class="topic"><span class="topic-num">01</span>Radiation Physics &amp; Biology</div>
+      <div class="topic"><span class="topic-num">02</span>Radiation Safety &amp; Protection</div>
+      <div class="topic"><span class="topic-num">03</span>Dental X-Ray Equipment</div>
+      <div class="topic"><span class="topic-num">04</span>Digital &amp; Film Imaging</div>
+      <div class="topic"><span class="topic-num">05</span>Infection Control in Radiography</div>
+      <div class="topic"><span class="topic-num">06</span>Intraoral Techniques</div>
+      <div class="topic"><span class="topic-num">07</span>Bitewing &amp; Periapical Series</div>
+      <div class="topic"><span class="topic-num">08</span>Panoramic &amp; Extraoral Imaging</div>
+      <div class="topic"><span class="topic-num">09</span>Patient Positioning</div>
+      <div class="topic"><span class="topic-num">10</span>Image Evaluation &amp; Quality</div>
+      <div class="topic"><span class="topic-num">11</span>Anatomy Identification</div>
+      <div class="topic"><span class="topic-num">12</span>Pathology Recognition</div>
+      <div class="topic"><span class="topic-num">13</span>Legal &amp; Ethical Considerations</div>
+      <div class="topic"><span class="topic-num">14</span>Special Populations</div>
+      <div class="topic"><span class="topic-num">15</span>Quality Assurance</div>
+      <div class="topic"><span class="topic-num">16</span>Final Competency Assessment</div>
+    </div>
+  </div>
+</section>
+
+<section class="compliance">
+  <div class="container">
+    <div class="section-label">Compliance &amp; Credentials</div>
+    <h2>Florida Board of Dentistry Recognized</h2>
+    <p class="lead">This course satisfies Florida Administrative Code 64B5-9.011 requirements for dental personnel radiography training.</p>
+    <div class="badge-row">
+      <div class="badge">FAC 64B5-9.011</div>
+      <div class="badge">FL Board of Dentistry</div>
+      <div class="badge">FDOE Aligned</div>
+      <div class="badge">Certificate Issued</div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band" id="apply">
+  <div class="container">
+    <h2>Open the Doors of Opportunity.</h2>
+    <p class="lead">Start today. Finish at your pace. Walk into your next shift with the credential Florida requires.</p>
+    <div class="cta-row" style="justify-content: center; display: flex; gap: 16px; flex-wrap: wrap;">
+      <a href="#" class="btn-primary">Enroll Now — $XXX</a>
+      <a href="tel:+19046743131" class="btn-secondary" style="color: white; border-color: white;">Call 904-674-3131</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="logo" style="justify-content: center; display: inline-block; margin-bottom: 16px;">FIDA<span>Florida Institute of Dental Assisting</span></div>
+  <p>Jacksonville, Florida &nbsp;·&nbsp; 904-674-3131 &nbsp;·&nbsp; fldentalassisting.com</p>
+  <p style="margin-top: 12px;">
+    <a href="#">Our Program</a>
+    <a href="#">CE Courses</a>
+    <a href="#">Tuition</a>
+    <a href="#">Contact</a>
+    <a href="https://www.facebook.com/fldentalassisting/">Facebook</a>
+    <a href="https://www.instagram.com/fldentalassisting/">Instagram</a>
+  </p>
+  <p style="margin-top: 20px; opacity: 0.6; font-size: 11px;">© 2026 Florida Institute of Dental Assisting · Radiography for Dental Personnel course meets FAC 64B5-9.011.</p>
+</footer>
+
+</body>
+</html>
