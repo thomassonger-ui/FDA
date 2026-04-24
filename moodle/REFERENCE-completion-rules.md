@@ -1,45 +1,53 @@
-# REFERENCE — Completion Rules
+# REFERENCE — Completion Rules (Generic)
 
-Activity- and course-level completion settings for FIDA Moodle courses.
+Cross-course guidance for Moodle completion rules. For course-specific rules, see the course folder.
 
-## Global Defaults
+## Global defaults
 
 - **Activity completion:** enabled for every graded activity
 - **Course completion:** enabled for every course
-- **Completion tracking display:** shown to student on dashboard
+- **Completion tracking display:** shown to student on the dashboard
+- **Gating:** sequential — each topic restricted by the prior topic's quiz completion
 
-## Radiography for Dental Personnel (FAC 64B5-9.011)
+## Typical patterns across FIDA courses
 
 ### Per-module completion
-A student completes a module when all of the following are true:
+Module completes when all true:
 1. All lesson pages viewed
 2. Module quiz score ≥ 80%
-3. Any H5P practice activity marked attempted
+3. Any required interactive activity marked attempted
 
-### Course completion
-A student completes the course when:
-1. All 16 modules complete
-2. Final competency assessment score ≥ 80%
-3. Minimum time-in-course met (if FDOE requires clock-hour verification)
+### Course completion triggers certificate
+Requires (at minimum):
+- All modules complete
+- Final assessment ≥ 80% (if course has one)
+- Any in-person / clinical components signed off
+- Post-course survey submitted
 
-### Certificate trigger
-Auto-issue customcert PDF on course completion, including:
-- Student full legal name (pulled from profile)
-- Course name + FAC 64B5-9.011 reference
-- Clock hours (total)
-- Completion date
-- Unique certificate ID (for verification)
-- FIDA logo + instructor signature image
+## Course-specific completion rules
 
-## Assessment Thresholds
+| Course | Where the full rules live |
+|---|---|
+| Radiography for Dental Personnel | [`/courses/radiography-dental-personnel/03-moodle-build/REFERENCE-completion-rules.md`](../courses/radiography-dental-personnel/03-moodle-build/REFERENCE-completion-rules.md) |
+| Expanded Functions | (TBD when course is built) |
+| Dental Assisting | (TBD when course is built) |
 
-| Item | Passing | Retake policy |
+## Assessment thresholds (common)
+
+| Item | Passing | Retake |
 |---|---|---|
-| Module quiz | 80% | Unlimited attempts, highest score counts |
-| Final competency | 80% | Max 3 attempts; 4th requires instructor contact |
-| Practical demonstration (if required) | Instructor sign-off | Unlimited until proficient |
+| Module quiz | 80% | 2 attempts, highest score kept; some courses require instructor reset after 2 failures |
+| Final exam | 80% | Typically 2 attempts with cooling period (course-specific) |
+| Clinical / skill demonstration | Per rubric | Remediation window per course (typically 30 days) |
 
-## Grade Book
+## Gradebook
 
-- Gradebook shows: module quizzes (weighted by topic — see `/radiography/REFERENCE-assessment-weights.md`), final exam, overall grade.
-- Students can see their own grades only.
+- Student sees own grades only
+- Staff with `grader` role sees all grades for their cohort
+
+## Changing rules
+
+Any change to completion rules requires updating:
+- The course's Moodle course completion configuration
+- The course's `REFERENCE-completion-rules.md`
+- The course syllabus and student welcome copy
