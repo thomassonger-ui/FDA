@@ -1,41 +1,52 @@
-# REFERENCE — Moodle Plugins
+# REFERENCE — Moodle Plugins (Generic)
 
-Required plugins for the FIDA Moodle build. Install order matters where noted.
+Cross-cutting plugin guidance for the FIDA Moodle. Course-specific plugin lists live in each course's `/03-moodle-build/REFERENCE-moodle-config.md`.
 
-## Core-Required
+## Core (always installed)
 
-| Plugin | Purpose | Notes |
-|---|---|---|
-| Certificate (mod_customcert) | Issue FAC 64B5-9.011 completion certificates | Required for radiography; supports custom PDF templates with logo |
-| Quiz (core) | Assessment engine | Use for module quizzes + final exam |
-| Assignment (core) | Skill demonstration uploads | Externship sign-offs |
-| SCORM (core) | If any existing SCORM content is imported | Confirm with client before enabling |
-| Completion (core) | Activity + course completion tracking | Required to trigger certificate |
+| Plugin | Purpose |
+|---|---|
+| Quiz (core) | Primary assessment engine |
+| Assignment (core) | File / submission-based tasks |
+| Completion (core) | Activity + course completion tracking |
+| SCORM (core) | SCORM content playback (enable only if needed) |
 
-## Compliance / Audit
+## Certification + compliance
 
-| Plugin | Purpose | Notes |
-|---|---|---|
-| Report: Course completion | Cohort-level completion export | FDOE audit requirement |
-| Report: Logs | Login/access logs | Retention period TBD |
-| Attendance (mod_attendance) | Document student session attendance | Confirm if required for online CE |
+| Plugin | Purpose |
+|---|---|
+| `mod_customcert` | Custom PDF certificates (FIDA logo, FAC citation, QR verification) |
+| `report_trainingrecord` | Per-student training record export (audit) |
+| `mod_attendance` | Document in-person session attendance (required for any course with live/clinical component) |
 
-## UX / Quality of Life
+## Assessment + security
 
-| Plugin | Purpose | Notes |
-|---|---|---|
-| BigBlueButton OR Zoom | Synchronous sessions if offered | Optional for self-paced radiography |
-| Checklist (mod_checklist) | Student-facing progress list | Good for radiography 16-topic visibility |
-| H5P | Interactive practice (drag-drop anatomy, image ID) | Recommended for radiography modules 11–12 |
+| Plugin | Purpose |
+|---|---|
+| Safe Exam Browser | Lockdown proctoring for high-stakes exams |
+| `local_competency` | Rubric-based competency assessment (used for clinical rubrics) |
+
+## Content + interactivity
+
+| Plugin | Purpose |
+|---|---|
+| `mod_h5p` | Interactive practice activities (drag-drop, hotspot, branching) |
+| `block_completion_progress` | Student-facing progress block in the sidebar |
 
 ## Theming
 
-| Plugin | Purpose | Notes |
-|---|---|---|
-| Boost Union (custom child) | FIDA brand theme | Load Oswald/Inter via Google Fonts |
+| Plugin | Purpose |
+|---|---|
+| Boost (core theme) + FIDA child theme | Brand tokens from `/marketing/REFERENCE-brand-spec.md` |
 
-## Open Questions
+## Per-course plugin specifics
 
-- [ ] Will FIDA host Moodle themselves or use Atticus/WorldTeachPathways infrastructure?
-- [ ] Is H5P licensing covered?
-- [ ] Does FDOE audit require any specific reporting plugin?
+| Course | Plugin list |
+|---|---|
+| Radiography for Dental Personnel | [`/courses/radiography-dental-personnel/03-moodle-build/REFERENCE-moodle-config.md`](../courses/radiography-dental-personnel/03-moodle-build/REFERENCE-moodle-config.md) |
+
+## Open questions (cross-cutting)
+
+- [ ] FIDA self-hosts vs. Atticus-hosts the Moodle instance
+- [ ] H5P licensing covered
+- [ ] Which audit-specific reports Florida Board of Dentistry and FDOE expect at inspection
