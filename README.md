@@ -1,186 +1,3 @@
-# Radiography for Dental Personnel — CE Course System
-
-## Overview
-
-This repository contains the full instructional, assessment, and compliance system for a **14-hour Radiography for Dental Personnel Continuing Education (CE) course**.
-
-This is not a traditional course.
-
-It is a:
-
-> **Competency validation system combining LMS instruction, simulation-based practice, and workplace-based clinical verification.**
-
----
-
-## Hours Breakdown
-
-**Total Contact Hours: 14**
-
-- Theory Hours (LMS Instruction): 8
-- Lab Hours (Simulation-Based Practice): 6
-- Externship Hours: 0
-
----
-
-## Course Model (Core Architecture)
-
-This program operates across three integrated layers:
-
-### 1. Instruction (Moodle LMS)
-
-- Scenario-based learning
-- Time-limited knowledge checks
-- Image-based and decision-based questions
-
-### 2. Simulation (Project-Based)
-
-- Typodont / shipped materials
-- Positioning and technique practice
-- Error creation and correction exercises
-- Photo-based submissions + reflection
-
-### 3. Workplace Clinical Validation
-
-- Radiographic procedures performed at the student's place of employment
-- Supervised by a **Florida-licensed dentist**
-- Dentist verifies and attests to competency
-- The course does NOT provide clinical supervision
-
----
-
-## Compliance Model (Critical)
-
-The course provides:
-
-- Instruction
-- Simulation-based practice
-- Assessment of knowledge and technique understanding
-
-The course does NOT provide:
-
-- Clinical supervision
-- Patient access
-- Clinical competency validation
-
-Clinical competency is:
-
-- Performed at the student's place of employment
-- Verified by a **Florida-licensed dentist**
-
----
-
-## Instructor Role
-
-**Instructor of Record:**
-
-- Delivers instructional content
-- Evaluates LMS-based and simulation-based work
-- Provides feedback
-
-**Instructor does NOT:**
-
-- Supervise clinical procedures
-- Validate clinical competency
-
----
-
-## Course Structure
-
-### Weeks 1–3 (Theory)
-
-- LMS instruction
-- Scenario-based knowledge checks
-- Time-limited assessments
-
-### Weeks 4–6 (Application & Validation)
-
-- Simulation (typodont-based)
-- Workplace radiographic procedures
-- Clinical logs and verification
-- Reflection-based assessment
-
-### Week 6
-
-- Final competency submission
-- Final exam (≥75% required)
-
----
-
-## Assessment System
-
-### Knowledge Checks
-
-- 5 questions per section
-- Scenario-based
-- Time-limited (AI-resistant)
-- Includes short-answer prompts
-
-### Project-Based Assessments
-
-- Simulation submissions (photos + explanation)
-- Error identification and correction
-- Reflection-driven evaluation
-
-### Clinical Validation
-
-- Activity logs
-- Dentist initials/sign-off
-- Clinical verification form
-
-### Final Exam
-
-- 25 questions
-- Time limit enforced
-- Passing score: 75%
-
----
-
-## Anti-Cheat Design
-
-- Time-limited quizzes
-- Randomized question banks
-- Scenario-based questions
-- Short-answer explanations
-- Physical simulation requirements
-- Workplace-based validation (cannot be faked)
-
----
-
-## Pre-Course Verification (Required)
-
-Students must complete BEFORE accessing Week 1:
-
-- Proof of clinical site access
-- Signed supervising dentist agreement
-- 3-month chairside experience acknowledgment
-- Equipment access confirmation
-- Data privacy acknowledgment
-
----
-
-## Data Privacy Policy
-
-- No patient identifiers may be submitted
-- All images must be anonymized
-- Submissions with identifying information must be rejected and resubmitted
-
----
-
-## Repository Scope
-
-All course work exists within:
-
-`courses/radiography-dental-personnel/`
-
----
-
-## Legacy Repository Notes (Preserved)
-
-> The content below reflects prior repository documentation, references, and internal notes.
-> It is preserved for continuity and internal use.
-
----
-
 # FDA — Florida Institute of Dental Assisting Project
 
 Central reference repo for the FIDA Moodle build, its courses, and supporting marketing + compliance documentation.
@@ -195,44 +12,118 @@ Central reference repo for the FIDA Moodle build, its courses, and supporting ma
 
 ```
 FDA/
-├── README.md                                    ← you are here
+├── README.md
 ├── courses/
-│   └── radiography-dental-personnel/            ← one full course, self-contained
+│   └── radiography-dental-personnel/
 │       ├── README.md
-│       ├── 00-overview/          blueprint, gap analysis, open decisions
-│       ├── 01-curriculum/        16 topics, module specs, FDOE map, FAC cite
-│       ├── 02-assessments/       gradebook, question bank, final, clinical rubric
-│       ├── 03-moodle-build/      plugins, layout, completion rules
-│       ├── 04-delivery/          6-week pacing, clinical day, cohorts, welcome copy
-│       └── 05-project-mgmt/      4-phase build checklist, sign-offs, QA
-├── marketing/                    brand audit + spec + email/landing templates
-├── moodle/                       generic Moodle reference
-├── compliance/                   FDOE + Board of Dentistry + audit checklist
-└── client/                       FIDA + WorldTeachPathways (Atticus) info
+│       ├── 00-overview/
+│       ├── 01-curriculum/
+│       ├── 02-assessments/
+│       ├── 03-moodle-build/
+│       ├── 04-delivery/
+│       └── 05-project-mgmt/
+├── marketing/
+├── moodle/
+├── compliance/
+└── client/
 ```
+
+---
 
 ## How this repo is structured
 
-**Courses are first-class.** Each course lives at `/courses/{slug}/` and is self-contained: everything needed to build, assess, deliver, and hand off that course is inside its folder, broken into six numbered stages (00–05).
+Courses are first-class. Each course lives at:
 
-Cross-course material — generic Moodle guidance, shared marketing templates, FDOE/Board-of-Dentistry references, client contacts — lives at the top level.
+`/courses/{slug}/`
+
+Each course is fully self-contained. Everything required to design, assess, build, deliver, and hand off that course exists inside its folder, organized into six numbered stages (00–05).
+
+Cross-course material lives at the root level.
+
+---
 
 ## Active courses
 
-| Slug | Title | Regulatory | Status |
-|---|---|---|---|
-| [`radiography-dental-personnel`](./courses/radiography-dental-personnel/) | Radiography for Dental Personnel | FAC 64B5-9.011 · FDOE Std 17 | Blueprint complete · 6 open decisions |
+- **Slug:** `radiography-dental-personnel`
+- **Title:** Radiography for Dental Personnel
+- **Regulatory:** FAC 64B5-9.011 · FDOE Std 17
+- **Status:** Build in progress
 
-**Planned (not started):**
-- Expanded Functions Dental Assisting
-- Dental Assisting entry-level (6-month)
+---
 
-## File naming convention (applies everywhere)
+## System model (Radiography course)
 
-- `README.md` — overview of the folder and how to use it
-- `REFERENCE-*.md` — source-of-truth facts (regs, standards, canonical lists). Treat as read-only authoritative.
-- `TEMPLATE-*.md` / `.html` — starter files to copy when creating new artifacts
+This course is a **competency validation system**.
+
+It operates across three layers:
+
+1. LMS instruction
+2. Simulation-based practice
+3. Workplace clinical verification
+
+Clinical procedures:
+
+- Occur at the student's place of employment
+- Are supervised by a **Florida-licensed dentist**
+- Are verified by that dentist
+
+---
+
+## Course hours
+
+**Total Contact Hours: 14**
+
+- Theory Hours (LMS Instruction): 8
+- Lab Hours (Simulation-Based Practice): 6
+- Externship Hours: 0
+
+---
+
+## Compliance model
+
+The course provides:
+
+- Instruction
+- Simulation-based practice
+- Assessment
+
+The course does NOT provide:
+
+- Clinical supervision
+- Clinical competency validation
+
+Clinical competency is verified by a **Florida-licensed dentist** at the student's workplace.
+
+---
+
+## File naming convention
+
+- `README.md` — overview
+- `REFERENCE-*.md` — authoritative documents
+- `TEMPLATE-*.md` / `.html` — starter files
+
+---
 
 ## Working files
 
-Working drafts and in-progress Moodle exports live in the local workspace folder (`/FDA Moodle/`) — not committed here. Only finalized reference + template files belong in this repo.
+Working drafts and Moodle exports live in:
+
+`/FDA Moodle/`
+
+Do NOT commit drafts to this repo.
+
+---
+
+## Key constraint
+
+All course work must remain inside:
+
+`/courses/{slug}/`
+
+Do NOT create parallel structures.
+
+---
+
+## Status
+
+Production system in build phase.
