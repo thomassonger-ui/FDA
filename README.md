@@ -4,7 +4,7 @@ Central reference repo for the FIDA Moodle build, its courses, and supporting ma
 
 **Client:** Florida Institute of Dental Assisting (Jacksonville, FL) — https://fldentalassisting.com/
 **Contractor:** WorldTeachPathways dba WorldTeachESL / Atticus™
-**Updated:** 2026-04-24
+**Updated:** 2026-05-02
 
 ---
 
@@ -93,6 +93,44 @@ The course does NOT provide:
 - Clinical competency validation
 
 Clinical competency is verified by a **Florida-licensed dentist** at the student's workplace.
+
+---
+
+## Design system (canonical)
+
+All Moodle course pages, READMEs, and branded artifacts in this project must use the **WorldTeachPathways production design system**. The live Welcome page in the Sandbox course is the established baseline.
+
+### Typography
+- **Body:** `'Inter', system-ui, sans-serif`
+- **Headings:** `'Playfair Display', serif`, bold
+
+### Palette
+- Navy (primary): `#1B365D`
+- Navy (deep): `#122748`
+- Teal (accent): `#2D6F73`
+- Teal (light): `#7EC9CD`
+- Border (cool gray): `#E0E4EA`
+- Panel background: `#F5F7FA`
+- Body text: `#1A1F2C`
+- Muted body text: `#5A6B7C`
+
+### Required components (in this order on top-level pages)
+1. **Hero block** — linear gradient (navy → deep navy → teal), white text, uppercase eyebrow, Playfair H1, rounded `12px` corners
+2. **Pillar cards** — responsive grid, white bg, `1px solid #E0E4EA`, `4px solid #2D6F73` top border
+3. **Expectations block** — bg `#F5F7FA`, `5px solid #1B365D` left rail, check chips (teal circle, white check)
+4. **Path-forward block** — dark navy gradient (`#1B365D → #122748`), white text, Playfair heading
+5. **Nav block** — bordered white card, "Next up →" eyebrow, navy bold page title
+6. **Footer** — centered, 13px, color `#5A6B7C`, copy: `Designed by WorldTeachPathways™ (dba WorldTeachESL LLC).`
+
+### Layout defaults
+- Page container: `max-width: 980px`, centered
+- All blocks: `border-radius: 12px`
+- Eyebrow text: 13–14px Inter, bold, uppercase, letter-spacing 1.5–2.5px
+
+### Do NOT
+- Default to Arial/Helvetica or "simple bordered box" layouts
+- Skip the hero or footer
+- Invent accent colors outside this palette
 
 ---
 
