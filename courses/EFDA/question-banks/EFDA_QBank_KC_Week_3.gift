@@ -1,0 +1,95 @@
+// EFDA · Knowledge Check — Week 3 · Restorative Materials & Provisional Care
+// 10 scenario MCQs · GIFT format · Import into Moodle question bank category "KC Week 3"
+// Authored 2026-05-11 · Original content
+
+$CATEGORY: $course$/top/KC Week 3
+
+::W3Q01:: The dentist plans a Class II composite restoration on tooth #14. After preparation, you set up the materials tray. The deepest part of the preparation is very close to the pulp. Which liner is most appropriate at the deepest point?{
+=Calcium hydroxide
+~Zinc oxide eugenol (ZOE)
+~IRM
+~Polycarboxylate cement
+####
+Calcium hydroxide has a strong alkaline pH (~12) and stimulates reparative dentin formation when applied at the deepest part of a near-pulp preparation. ZOE and IRM contain eugenol, which inhibits resin polymerization and is contraindicated under composite finals. Polycarboxylate is a base material, not a liner.
+}
+
+::W3Q02:: A composite restoration is planned. You're preparing the base material to place over a thin remaining dentin floor. Which base material is INCORRECT in this scenario?{
+=Zinc oxide eugenol (IRM)
+~Resin-modified glass ionomer (RMGI)
+~Glass ionomer cement (GIC)
+~A bonded composite as the base
+####
+Eugenol inhibits resin polymerization, so placing ZOE/IRM under a composite final breaks the bonding chemistry and causes the composite to fail. RMGI and GIC are the standard bases under composite — both bond chemically to dentin and release fluoride.
+}
+
+::W3Q03:: After etching enamel and dentin with phosphoric acid, the surface should appear:{
+=Chalky white when dried
+~Glossy and wet
+~Pink-tinged
+~Brown discoloration
+####
+A properly etched enamel surface appears chalky/frosted white when dried — this indicates the smear layer was removed and microscopic porosities were created for mechanical retention of the bonding agent. If the surface doesn't look chalky, re-clean and re-etch.
+}
+
+::W3Q04:: A patient is leaving with a provisional crown. The dentist asks you to give post-op instructions. Which of the following should NOT be on the instruction list?{
+=Brush vigorously around the provisional to keep plaque off
+~Avoid sticky, chewy foods on that side
+~Floss carefully — pull through, don't snap up
+~If it comes off, save it and call the office
+####
+Patients should brush gently around a provisional, not vigorously — aggressive brushing can dislodge the provisional and irritate the gingiva. Sticky foods are avoided because they pull the provisional off. Flossing should pull through the contact rather than snapping up. Any displaced provisional should be saved and the office notified.
+}
+
+::W3Q05:: A provisional crown was placed two weeks ago. The patient returns for the final crown cementation. The lab crown is ready. The provisional is removed and the dentist examines the prep. The final crown won't seat fully — there's an interference at the margin. The MOST likely cause is:{
+=The provisional was loose; an adjacent tooth drifted into the space
+~The lab made the final crown too tall
+~The patient's pulp swelled during the 2 weeks
+~The cement residue is causing interference
+####
+A poorly fitted or loose provisional allows adjacent teeth to drift into the prepared space over 1-3 weeks. When the final crown is then delivered, it won't fully seat because the proximal contacts have changed. This is one of the most common causes of provisional-related complications and emphasizes why a tight, well-fitted provisional matters even at a 2-3 week duration.
+}
+
+::W3Q06:: The dentist plans a temporary restoration on a tooth that will receive a composite final restoration at the next visit. Which temporary material is INAPPROPRIATE?{
+=Zinc oxide eugenol (IRM)
+~Glass ionomer cement
+~Resin-modified glass ionomer
+~Non-eugenol zinc oxide cement
+####
+Eugenol residue on dentin inhibits resin polymerization. If a composite final is planned, ZOE-based temporaries (including IRM) should not be used. GIC, RMGI, or non-eugenol ZO cements are appropriate choices.
+}
+
+::W3Q07:: The bonding agent is being placed on the etched and rinsed dentin. The dentin should be:{
+=Moist (visibly damp but no pooling water)
+~Completely dry (desiccated)
+~Wet with pooled water
+~Coated in saliva
+####
+Modern dentin bonding chemistry works best on moist dentin — the water-rich substrate allows the bonding resin to infiltrate the demineralized collagen network and form the hybrid layer. Desiccated dentin collapses the collagen and reduces bond strength. Pooled water and saliva contamination both interfere with bonding.
+}
+
+::W3Q08:: A direct-method provisional crown is being fabricated. Which is the correct sequence?{
+=Take alginate impression of tooth BEFORE preparation → after prep, fill matrix with provisional material → seat over prep → allow to set → remove and finish
+~Take alginate impression AFTER preparation → use stone model as the matrix
+~Place provisional material directly on the prepared tooth without a matrix
+~Build the provisional from wax pre-operatively in the lab
+####
+The direct-method (matrix technique) requires capturing the original tooth anatomy BEFORE preparation, then using that impression as a matrix to shape the provisional after preparation. This preserves the original tooth contour, occlusion, and contacts — all of which are typically lost when relying on memory or freehand work.
+}
+
+::W3Q09:: The dentist is choosing a bonding system for a quick Class V composite on a cooperative adult patient. Which bonding system is generally faster to apply and less technique-sensitive?{
+=Self-etch (6th/7th generation)
+~Etch-and-rinse (4th generation)
+~Etch-and-rinse (5th generation)
+~Total-etch with separate primer and bond
+####
+Self-etch adhesives combine the etching and priming steps into one application, eliminating the separate rinse and dry phases. This makes them faster and less technique-sensitive (especially regarding dentin moisture management). Enamel bond strength is slightly lower than etch-and-rinse, which is why some dentists selectively etch enamel with phosphoric acid even when using a self-etch product.
+}
+
+::W3Q10:: A provisional cement is selected for a temporary crown. The patient's final restoration will be a resin-bonded ceramic. Which cement should be AVOIDED?{
+=Zinc oxide eugenol-based provisional cement
+~Non-eugenol zinc oxide cement
+~Calcium hydroxide-based temporary cement
+~Provisional cement specifically formulated for use under bonded finals
+####
+ZOE-based provisional cement leaves eugenol residue on the prepared dentin that inhibits resin polymerization. When the final restoration is resin-bonded (composite, bonded ceramic), the bond will be weakened. Use non-eugenol cement when a bonded final is planned. ZOE provisional cement remains appropriate for conventional cementation (not resin-bonded) finals.
+}

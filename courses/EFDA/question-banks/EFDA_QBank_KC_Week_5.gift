@@ -1,0 +1,95 @@
+// EFDA · Knowledge Check — Week 5 · Impressions, Periodontal & Surgery
+// 10 scenario MCQs · GIFT format · Import into Moodle question bank category "KC Week 5"
+// Authored 2026-05-11 · Original content
+
+$CATEGORY: $course$/top/KC Week 5
+
+::W5Q01:: An EFDA is taking a maxillary alginate impression on a patient. After loading the tray and seating it, the alginate sets faster than expected, leaving the assistant with no time to complete proper positioning. The MOST likely cause is:{
+=Water temperature was too warm
+~Alginate-to-water ratio had too much powder
+~The tray was too small
+~The patient's body temperature accelerated the set
+####
+Warmer water accelerates alginate setting. In a hot operatory or with hot tap water, working time is shortened. Use cooler water in summer (or pre-chill water) to extend working time. While powder/water ratio matters, the most common cause of unexpectedly fast set is water temperature.
+}
+
+::W5Q02:: A maxillary alginate impression has been removed. Inspection shows good detail of the dentition but bubbles in the right palatal area. The most appropriate action is:{
+=Retake the impression — bubbles in critical areas yield a non-diagnostic impression
+~Pour the impression and trim the bubbles out of the model
+~Use the impression for a custom tray, then retake for the diagnostic model
+~Fill the bubbles with extra alginate
+####
+Diagnostic-quality is the standard for alginate impressions. Bubbles in critical areas (where the dentition or palatal anatomy is needed) require a retake. Pouring a flawed impression wastes time and produces an unreliable model. Trimming after the fact does not restore lost detail.
+}
+
+::W5Q03:: A periodontal dressing is being removed 8 days after placement. The dressing comes off cleanly. Underneath, the surgical site appears slightly pink with no purulent discharge, no significant swelling, and no foul odor. This is consistent with:{
+=Normal healing — proceed with patient post-op instructions and document
+~Infection — notify the surgeon immediately
+~Wound dehiscence — replace the dressing
+~Healing complication — re-evaluate in 24 hours
+####
+Slight pink granulation tissue, no purulent discharge, no significant swelling, and no foul odor is consistent with normal healing 7-10 days post-surgery. Document the findings and provide post-op instructions per the surgeon. Concerning signs would include frank pus, significant erythema beyond the immediate site, fever, or wound dehiscence.
+}
+
+::W5Q04:: Sutures on a 30-year-old patient's lower extraction site are due for removal. The chart indicates the surgeon used 3-0 silk sutures. After 8 days, the assistant should:{
+=Remove all silk sutures (non-absorbable) — standard timing
+~Leave the sutures — silk is absorbable
+~Wait another week before removing
+~Cut the sutures shorter to encourage absorption
+####
+Silk is a non-absorbable suture material — it must be removed manually. Standard removal timing for oral surgical sites is 7-10 days. Leaving silk sutures in place beyond 10 days risks chronic inflammation and infection. Confirm chart documentation when in doubt about suture material.
+}
+
+::W5Q05:: An EFDA is removing a continuous (running) suture. The MOST appropriate technique is:{
+=Cut the suture in multiple places along its length to remove it in segments
+~Cut once and pull the entire suture through in one motion
+~Untie the knot and pull the entire suture through
+~Leave continuous sutures in place — they will dissolve eventually
+####
+Continuous sutures loop between bites. Pulling one end through pulls a long contaminated thread through clean tissue. Cut the suture in multiple places along its length and remove segment-by-segment. Untying typically isn't possible on tightened oral surgical sutures.
+}
+
+::W5Q06:: When cutting a suture for removal, the assistant should position the scissors:{
+=Close to the gingiva (tissue surface), not close to the knot
+~Close to the knot to ensure the knot comes out cleanly
+~At the midpoint between knot and gingiva
+~Wherever the suture is easiest to grasp
+####
+Cut close to the tissue surface (gingiva), not close to the knot. This way, when the suture is pulled, only a short clean segment is drawn through the wound — not the contaminated knot. Pulling the knot through clean tissue risks introducing bacteria into the healing site.
+}
+
+::W5Q07:: A poured alginate stone model has set for 45 minutes. The assistant attempts to separate the model from the alginate tray. Best practice is:{
+=Gently lift along the long axis of the teeth; if resistance, wait additional set time
+~Pry forcefully with an instrument
+~Soak the entire tray in hot water to soften the alginate
+~Cut the tray edges to free the model
+####
+Stone models separate cleanly when fully set (typically 45-60 min). If resistance is encountered, wait additional time rather than forcing — forced separation can fracture cusps or break the model. Lift along the long axis to minimize stress. Hot-water soaking can distort the model.
+}
+
+::W5Q08:: A patient has just had a periodontal dressing placed. The MOST important post-operative instruction to give them is:{
+=Avoid sharp, hard, or hot food on the surgical side; rinse gently with warm saline tonight
+~Floss aggressively around the dressing to keep it clean
+~Brush vigorously to prevent the dressing from harboring bacteria
+~Continue normal eating and oral hygiene routines
+####
+Periodontal dressings are mechanically delicate and can be dislodged by sharp, hard, or hot foods. Gentle saline rinses after 24 hours are appropriate. Vigorous brushing and aggressive flossing around the dressing displace it prematurely. The dressing itself protects the wound during initial healing.
+}
+
+::W5Q09:: A maxillary alginate impression is taken and the assistant intends to send it to the lab in another building. Pour-up will be delayed by 2 hours. The MOST appropriate handling is:{
+=Wrap the impression in damp gauze and place in a sealed plastic bag
+~Place the impression in cold water until pour-up
+~Pour the impression immediately at the front desk with whatever stone is available
+~Leave the impression at room temperature on the counter
+####
+Alginate is dimensionally unstable when exposed to air — it dries and shrinks. For pour-up delays beyond 15 minutes, wrap in damp gauze and seal in a plastic bag to maintain hydration. Soaking in water causes expansion (also distortion). Pouring with the wrong stone or insufficient mixing is worse than waiting.
+}
+
+::W5Q10:: The chart indicates a patient has 4 interrupted silk sutures at the extraction site. After removal, the assistant counts only 3 suture pieces. The MOST appropriate action is:{
+=Inspect the site carefully and use suction; if the fourth suture cannot be located, notify the surgeon
+~Document that 3 were removed and move on
+~Assume the fourth fell out on its own and is in the patient's stomach
+~Cut sutures shorter next time to prevent this issue
+####
+Counting in/out is the safety check that prevents retained sutures. If a suture is missing, inspect the site with suction and good lighting. If it cannot be located, notify the surgeon — a retained suture causes chronic inflammation and can lead to abscess. Documentation alone without resolution is not appropriate.
+}

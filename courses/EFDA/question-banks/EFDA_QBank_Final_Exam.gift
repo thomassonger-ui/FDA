@@ -1,0 +1,230 @@
+// EFDA · Final Exam · 25 scenario MCQs · 2 points each · 50 points total
+// GIFT format · Import into Moodle question bank category "Final Exam"
+// Authored 2026-05-11 · Original content · Cumulative across all 13 EFDA procedures
+
+$CATEGORY: $course$/top/Final Exam
+
+::FE01:: An EFDA in Florida is asked to take a final impression for a crown after the dentist has prepared the tooth. The dentist will be in another operatory. Which response is correct?{
+=Decline — taking final impressions for cementation is outside Florida EFDA scope under indirect supervision rules
+~Take the impression — alginate is in scope
+~Take the impression but have it reviewed before the patient is dismissed
+~Take the impression only if the dentist has documented the delegation
+####
+Final impressions for fixed prosthodontics typically require direct supervision. Alginate study-model impressions (EFDA107) are in scope; final impressions for crowns are generally not. Confirming scope with the supervising dentist before performing any task is the standard.
+}
+
+::FE02:: A weekly biological spore test on the office's autoclave returns positive. All instruments processed since the previous successful spore test must be:{
+=Considered non-sterile, re-processed; the autoclave must be repaired and re-tested before clinical use
+~Discarded — the load is unsafe
+~Used only on patients with no immunocompromise
+~Considered safe if the chemical indicator strip showed proper color change
+####
+Spore tests are the only definitive proof of sterilization. A positive test means all instruments since the last successful test are non-sterile and require re-processing. The autoclave is removed from service until the cause is identified, repaired, and confirmed by successful spore testing.
+}
+
+::FE03:: For a patient with known iodine allergy, which infection-control product is contraindicated?{
+=Povidone-iodine surgical scrub
+~Chlorhexidine gluconate hand antiseptic
+~70% isopropanol surface disinfectant
+~EPA-registered quaternary ammonium disinfectant
+####
+Povidone-iodine contains iodine and is contraindicated in iodine-allergic patients. Chlorhexidine, alcohol, and quaternary ammonium compounds do not contain iodine and are appropriate alternatives.
+}
+
+::FE04:: An EFDA is placing dental dam in preparation for a Class II composite on tooth #14. After placement, the dentist points out that gingiva around tooth #14 is visible above the dam edge. The dam material is not sealed against tissue. The correction is:{
+=Invert the dam edge into the gingival sulcus using an explorer
+~Tighten the clamp on the anchor tooth
+~Replace the dam with a thicker gauge
+~Use a different shaped frame
+####
+The seal of a dental dam comes from edge inversion into the gingival sulcus. Without inversion, saliva leaks past the dam and contaminates the field. The fix is mechanical — use an explorer to gently tuck the edge under the gingival margin around each isolated tooth.
+}
+
+::FE05:: A patient has known cardiovascular disease and is on antihypertensive medication. The dentist is preparing for a crown impression. Which retraction cord is INAPPROPRIATE?{
+=Epinephrine-impregnated cord
+~Aluminum chloride cord
+~Plain cotton cord
+~Ferric sulfate cord
+####
+Epinephrine cord can be absorbed systemically through the gingival sulcus and cause cardiovascular effects (elevated blood pressure, tachycardia). Avoid in patients with hypertension, cardiovascular disease, or hyperthyroidism. Aluminum chloride is the standard alternative.
+}
+
+::FE06:: For a Class II composite where a tight, anatomically correct contact with the adjacent tooth is essential, which matrix system is generally preferred?{
+=Sectional matrix with separating ring
+~Tofflemire universal matrix without wedge
+~Acetate strip
+~Spot-welded steel band
+####
+Sectional matrix systems with separating rings are the modern preferred choice for Class II composites where contact quality matters. The separating ring physically displaces adjacent teeth slightly, creating a tight final contact when the ring is removed.
+}
+
+::FE07:: A composite restoration is planned on tooth #19. The preparation depth is moderate but well within dentin. Which base material should you AVOID?{
+=ZOE (IRM)
+~RMGI
+~Glass ionomer
+~Calcium silicate
+####
+Eugenol in ZOE/IRM inhibits resin polymerization. Composite finals require non-eugenol bases — RMGI, GIC, or calcium silicate are appropriate. If ZOE is placed, the composite bond will be compromised at the interface.
+}
+
+::FE08:: A direct-method provisional crown is being fabricated. The assistant should take the pre-operative alginate impression:{
+=BEFORE the tooth is prepared, to capture original anatomy
+~AFTER preparation, to capture the prep
+~AFTER cementation, to record the final
+~Either before or after preparation — order doesn't matter
+####
+The matrix technique requires capturing the original tooth shape BEFORE preparation. The alginate impression is then used as a mold to shape the provisional after the tooth is prepared, preserving the original occlusion and proximal contacts.
+}
+
+::FE09:: A 7-year-old patient with deep occlusal fissures on the newly erupted permanent first molars and moderate caries risk is in the chair. The MOST appropriate preventive strategy is:{
+=Place pit-and-fissure sealants on all four newly erupted first molars
+~Fluoride varnish only — sealants will fall off
+~Wait until age 12 to consider sealants
+~Apply chlorhexidine varnish
+####
+Newly erupted permanent molars in moderate-to-high caries risk patients are the textbook indication for sealants. Properly placed sealants reduce occlusal caries by 60-80% over 4 years. Fluoride varnish complements sealants but doesn't replace them for pit-and-fissure protection.
+}
+
+::FE10:: A patient receiving in-office 1.23% APF fluoride foam in trays should be instructed:{
+=Do not swallow during treatment; spit residue after timer; no food/drink for 30 minutes
+~Swallowing small amounts is fine
+~Brush immediately after to remove residue
+~Rinse with water to clear excess
+####
+Tray-applied fluoride concentrations are far above safe systemic intake. Saliva ejector removes excess; the patient spits residue and waits 30 minutes for no food/drink to maintain topical contact. Rinsing or brushing immediately removes the residual fluoride that continues to act.
+}
+
+::FE11:: A patient asks why their dental office now polishes only certain surfaces instead of every tooth like at past visits. The EFDA's BEST response is:{
+=Modern selective polishing protects the thin fluoride-rich outer enamel layer, which provides caries resistance
+~Insurance has changed coverage
+~Polishing pastes have become more abrasive
+~Time pressure has shortened the appointment
+####
+Selective polishing is the modern evidence-based approach. Routine full-mouth polishing strips 5-10 μm of fluoride-rich outer enamel per session — a layer that protects against caries. Polishing only stained or plaque-covered surfaces preserves this protective layer.
+}
+
+::FE12:: An EFDA is taking a mandibular alginate impression. The patient gags as the tray is seated. The MOST appropriate response is:{
+=Remove the tray, allow patient to recover, switch to a smaller tray or use a quicker-setting alginate mix
+~Hold the tray firmly in place until set
+~Use cold water to slow the set time
+~Switch to a maxillary tray instead
+####
+Patient comfort and airway protection are immediate priorities. Remove the tray, let the patient recover, then re-attempt with a smaller tray, a faster-setting mix, or different patient positioning. Forcing the tray through gagging risks aspiration and trauma.
+}
+
+::FE13:: A periodontal dressing is being placed by the surgeon. The dressing should:{
+=Cover both buccal AND lingual surfaces of the involved teeth
+~Cover the buccal surfaces only
+~Cover the lingual surfaces only
+~Be placed in the interproximal spaces only
+####
+Periodontal dressings protect the surgical site by covering both buccal and lingual aspects of the involved teeth and gingiva. Single-side coverage exposes half the wound. Dressing should NOT be packed into the interproximal as it can be dislodged during eating.
+}
+
+::FE14:: At 7-day suture removal, the chart says the surgeon placed 3-0 polyglactin (Vicryl) sutures. The EFDA should:{
+=Leave the sutures alone — polyglactin is absorbable and will dissolve
+~Remove all sutures regardless of material
+~Cut the sutures to half-length to speed absorption
+~Remove every other suture and leave the rest
+####
+Polyglactin (Vicryl) is an absorbable suture that dissolves through hydrolysis over weeks. It does not need to be removed. Pulling an absorbable suture out prematurely disrupts the wound. Confirm suture material in the chart before any removal action.
+}
+
+::FE15:: An EFDA is finishing a sealant placement. The explorer detects a small void at the distal extension of the fissure. The CORRECT action is:{
+=Re-etch the void area, place additional sealant, and re-cure
+~Apply additional sealant material without re-etching
+~Leave the void — small ones are clinically acceptable
+~Remove the entire sealant and start over
+####
+Voids in sealants expose unprotected fissure surface to caries. The repair: clean and dry the void, re-etch the exposed enamel (since saliva contamination since cure has compromised the original etch), place more sealant, and re-cure. Simply adding material without re-etching won't bond properly.
+}
+
+::FE16:: A Class II composite restoration is being placed. After matrix and bond placement, the dentist incrementally cures composite. The EFDA's role during the cure phase is to:{
+=Hold suction near the field, maintain dryness, and operate the curing light per the dentist's direction
+~Apply more bonding agent between increments
+~Pre-warm the composite cartridge
+~Place additional liner between increments
+####
+Once the dentist has decided on the layered sequence and applied liner/base/bond, the EFDA's role is to maintain a dry field, hold suction, and operate the curing light per direction. Additional bonding agent or liner is added only at the dentist's explicit direction.
+}
+
+::FE17:: When packing retraction cord into the sulcus around a prepared tooth, the appropriate technique is:{
+=Press the cord circumferentially along the long axis of the tooth with light, controlled pressure
+~Press the cord vertically into the sulcus with firm pressure
+~Force the cord deep with a sharp instrument
+~Wrap the cord around the tooth and tie it
+####
+Cord placement uses gentle circumferential pressure along the long axis of the tooth. Vertical or forceful pressure damages the junctional epithelium and causes permanent gingival recession. A blunt cord packer guides the cord; sharp instruments are inappropriate.
+}
+
+::FE18:: A patient has just had a Class V composite placed. The EFDA notices a small gingival overhang at the cervical margin. The appropriate response is:{
+=Notify the dentist immediately — overhangs cause inflammation and recurrent caries and need to be addressed before the patient leaves
+~Polish the overhang smooth as a finishing step
+~Document the overhang and have the patient return for adjustment
+~Apply additional bonding to seal it
+####
+Cervical gingival overhangs trap plaque, cause gingival inflammation, and increase recurrent caries risk. They must be removed by the dentist before the patient is dismissed. The EFDA should notify the dentist; EFDA scope does not include modifying a placed final restoration.
+}
+
+::FE19:: For a patient with a known nickel allergy, which dental dam clamp material should be AVOIDED?{
+=Stainless steel clamp (contains nickel)
+~Polycarbonate (plastic) clamp
+~Titanium-coated clamp
+~Wingless plastic frame
+####
+Most stainless steel clamps contain nickel, which can trigger contact dermatitis or allergic reaction in nickel-sensitive patients. Polycarbonate (plastic) clamps and titanium-coated clamps are nickel-free alternatives. Confirm patient medical history before clamp selection.
+}
+
+::FE20:: An EFDA is preparing instruments for sterilization. The proper sequence is:{
+=Transport → pre-clean (ultrasonic) → rinse/dry → inspect → package → sterilize → monitor → store
+~Clean → sterilize → package → store
+~Package → ultrasonic → autoclave → store
+~Sterilize → clean → package → store
+####
+The complete sterilization workflow proceeds in one direction: transport from dirty zone → pre-cleaning → rinse/dry → inspection → packaging with chemical indicator → autoclave → monitor (mechanical, chemical, biological) → clean storage. Reversing or skipping steps compromises sterilization.
+}
+
+::FE21:: A 35-year-old patient on long-term anticoagulant therapy (warfarin) is having a periodontal dressing removed at 8 days post-surgery. The dressing comes off cleanly but the site bleeds significantly. The EFDA's BEST action is:{
+=Apply pressure with gauze, notify the surgeon immediately, do not dismiss the patient until bleeding controls
+~Apply pressure and dismiss the patient with extra gauze to take home
+~Place a new dressing without consulting the surgeon
+~Continue with patient instructions; bleeding will stop
+####
+Anticoagulated patients can have prolonged bleeding from surgical sites. Persistent bleeding requires surgeon involvement before patient dismissal. Sending the patient home or placing a new dressing without surgeon consult is not appropriate.
+}
+
+::FE22:: An alginate impression has been taken, rinsed, and disinfected. Pour-up will be delayed 90 minutes. The appropriate storage is:{
+=Wrapped in damp gauze inside a sealed plastic bag
+~Submerged in water at room temperature
+~Left on the counter exposed to air
+~Refrigerated to slow dimensional change
+####
+Alginate is dimensionally unstable when exposed to air (shrinks) or water (expands). For delays beyond 15 minutes, wrap in damp gauze inside a sealed plastic bag to maintain humidity. Refrigeration doesn't stop dimensional change and adds the complication of condensation upon re-warming.
+}
+
+::FE23:: A Class II composite restoration shows poor proximal contact at the post-operative visit. The patient reports food impaction. The MOST likely cause was:{
+=Matrix band was not pre-burnished and wedge was not seated tightly enough at placement
+~The composite material expanded after curing
+~The patient bit on the restoration too soon
+~The opposing tooth has worn
+####
+Open or weak proximal contacts after Class II composites are most commonly caused by inadequate matrix placement at the time of restoration — band not pre-burnished against the adjacent tooth, wedge not tight enough, or sectional matrix without proper separating ring use. Composite materials don't expand post-cure.
+}
+
+::FE24:: An EFDA discovers that a patient's signed Employment Verification Form is missing from their pre-enrollment file. The patient is scheduled to begin Week 1 tomorrow. The CORRECT action is:{
+=Notify the supervising dentist and instructor; do not allow the patient to begin until the documentation is on file
+~Allow the patient to begin and collect the form later
+~Have the patient sign an alternative form
+~Proceed since the patient is clearly experienced
+####
+Per Florida Board of Dentistry rules, the supervising dentist's signed verification of three months chairside training is a regulatory requirement before EFDA enrollment. No EFDA training may begin without this on file. The course's pre-enrollment gate is not optional regardless of how experienced the candidate appears.
+}
+
+::FE25:: An EFDA places a sealant on tooth #14. The chart documentation should include:{
+=Tooth treated, sealant material/brand, isolation method, date, and EFDA initials
+~Only the date and tooth number
+~Sealant brand only
+~No documentation needed — sealants are routine
+####
+All clinical procedures require documentation: tooth number, materials used (brand and lot if available), isolation method, procedure date, and the clinician's initials/signature. Adequate documentation supports continuity of care and provides an audit trail for Florida Board records-retention requirements (4 years minimum for EFDA).
+}

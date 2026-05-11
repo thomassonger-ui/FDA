@@ -1,0 +1,95 @@
+// EFDA · Knowledge Check — Week 1 · Foundations & Infection Control
+// 10 scenario MCQs · GIFT format · Import into Moodle question bank category "KC Week 1"
+// Authored 2026-05-11 · Original content
+
+$CATEGORY: $course$/top/KC Week 1
+
+::W1Q01:: You're processing a patient who has just been treated for active tuberculosis. Which level of precautions applies?{
+=Standard Precautions plus appropriate airborne precautions
+~Standard Precautions only — no additional level needed
+~Use Universal Precautions instead of Standard Precautions for TB
+~No PPE is required since the patient is no longer infectious after starting treatment
+####
+Standard Precautions apply to every patient. Tuberculosis is transmitted by airborne droplet nuclei, so additional airborne precautions (N95 respirator, isolation if available) are added on top of Standard Precautions. Universal Precautions is an outdated term replaced by Standard Precautions.
+}
+
+::W1Q02:: While sterilizing a load of instruments, the chemical indicator strip shows the expected color change but the weekly biological spore test from the same week comes back positive (growth detected). What does this mean?{
+=The autoclave failed to kill spores in that load — re-process all instruments and quarantine until repair
+~The chemical strip is the gold standard; ignore the spore test
+~Spore tests sometimes false-positive — repeat the test before acting
+~Only the load that contained the spore vial is affected
+####
+The biological spore test is the ONLY definitive proof of sterilization. A positive spore test means the autoclave did not reach conditions sufficient to kill spores, regardless of what mechanical or chemical indicators showed. All instruments processed since the last successful spore test must be considered non-sterile.
+}
+
+::W1Q03:: A dental assistant has just completed a procedure on a patient and is about to leave the operatory. In what order should PPE be removed?{
+=Gloves, gown, eye protection, mask, then hand hygiene
+~Mask, gown, gloves, eye protection, then hand hygiene
+~Hand hygiene first, then gloves, gown, mask, eye protection
+~Gown, gloves, eye protection, mask, then hand hygiene
+####
+Gloves are the most contaminated item, so they come off first. Mask comes off last because it's been protecting the breathing zone. Hand hygiene is the last step regardless of PPE order. Correct sequence: gloves → gown → eye protection → mask → hand hygiene.
+}
+
+::W1Q04:: An EFDA in a Florida practice is asked by the dentist to place a final composite restoration on a Class II preparation while the dentist sees another patient. What's the appropriate response?{
+=Decline politely — placing final restorations is outside EFDA scope in Florida
+~Proceed since the dentist explicitly authorized the task
+~Ask the dentist to delegate the task in writing, then proceed
+~Place the restoration but ask the dentist to inspect it before patient dismissal
+####
+EFDAs in Florida may place sealants, temporary restorations, and provisionals, but NOT final restorations. Placing a final restoration is outside legal scope regardless of the dentist's authorization. Practicing outside scope can result in disciplinary action, fines, and loss of certification.
+}
+
+::W1Q05:: Which of the following is a CRITICAL item per the Spaulding classification?{
+=Surgical scaler that contacts subgingival tissue
+~Mouth mirror used for an exam
+~Patient bib clip
+~Air-water syringe tip cover used during the exam
+####
+Critical items penetrate soft tissue or contact bone and require sterilization. A surgical scaler contacting subgingival tissue meets this definition. Mouth mirrors are semi-critical (sterilize if heat-tolerant). Bib clips and barrier covers are non-critical.
+}
+
+::W1Q06:: Hand hygiene is required before all of the following EXCEPT:{
+=After a patient encounter when gloves were worn the entire time
+~Before donning gloves for a new patient
+~After removing gloves at the end of a procedure
+~Before performing any sterile procedure
+####
+Hand hygiene is required AFTER every patient encounter, not "except." Gloves are not a substitute for hand hygiene — micro-perforations occur during routine wear. Always perform hand hygiene before donning, after removing, and after any potentially contaminated contact.
+}
+
+::W1Q07:: Dental unit waterlines in your practice tested at 800 CFU/mL on the last quarterly water test. The CDC threshold for non-surgical procedures is ≤500 CFU/mL. What action is required?{
+=Treat the waterlines with an EPA-registered maintenance product and retest before non-surgical use
+~No action — the patient-safety threshold is 1,000 CFU/mL
+~Switch to sterile bottled water for all procedures permanently
+~Flush waterlines for 5 minutes per patient and consider the issue resolved
+####
+The CDC standard for dental unit water quality is ≤500 CFU/mL for non-surgical procedures. A reading of 800 CFU/mL exceeds the threshold and requires treatment (typically an EPA-registered chemical maintenance product per manufacturer instructions) followed by retesting before use. For surgical procedures, sterile irrigation should always be used regardless of waterline water quality.
+}
+
+::W1Q08:: Which agency enforces the Bloodborne Pathogens Standard in U.S. dental offices?{
+=OSHA
+~CDC
+~FDA
+~Florida Board of Dentistry
+####
+OSHA enforces the Bloodborne Pathogens Standard (29 CFR 1910.1030). CDC publishes infection-control recommendations but does not enforce regulations. FDA regulates medical devices. The Florida Board of Dentistry regulates EFDA scope and licensure but not bloodborne pathogen enforcement.
+}
+
+::W1Q09:: A patient with a known latex allergy is seated in the operatory. Which type of gloves should the dental assistant wear?{
+=Nitrile or other non-latex synthetic gloves
+~Powder-free latex gloves (lower allergen content)
+~Vinyl gloves (always latex-free)
+~Latex gloves with an inner cotton liner
+####
+For patients with known latex allergy, all dental staff caring for them must wear non-latex gloves — nitrile is the most common choice. Even powder-free latex gloves contain latex proteins that can trigger an allergic reaction. Vinyl gloves are latex-free but have inferior tear resistance for procedures; nitrile is preferred. Cotton liners do not eliminate latex exposure.
+}
+
+::W1Q10:: After cleaning an extracted tooth that was placed in a biohazard sharps container, you discover the sharps container was labeled but not yet placed in the regulated medical waste pickup area. What's the correct action?{
+=Move the container to the designated regulated medical waste storage area for pickup by a licensed hauler
+~Place it in the general waste because the tooth has been cleaned
+~Autoclave the entire container and dispose as general waste
+~Keep it in the operatory until the next pickup day arrives
+####
+Extracted teeth and contaminated sharps are regulated medical waste regardless of whether they have been rinsed. They must be stored in a labeled sharps container in the designated medical waste storage area and picked up by a licensed medical waste hauler per Florida and EPA rules. General-waste disposal is not appropriate for biohazard.
+}

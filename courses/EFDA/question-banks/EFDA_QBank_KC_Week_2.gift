@@ -1,0 +1,95 @@
+// EFDA · Knowledge Check — Week 2 · Patient & Field Preparation
+// 10 scenario MCQs · GIFT format · Import into Moodle question bank category "KC Week 2"
+// Authored 2026-05-11 · Original content
+
+$CATEGORY: $course$/top/KC Week 2
+
+::W2Q01:: While placing a dental dam on tooth #30, the assistant notices saliva accumulating around tooth #30 inside the dam. What's the likely cause?{
+=The dam edge was not inverted into the gingival sulcus around tooth #30
+~The clamp wings were not properly seated
+~The frame is too narrow
+~Tooth #30 should have used a wingless clamp
+####
+The seal of a dental dam comes from the dam edge being inverted (tucked) into the gingival sulcus around the isolated tooth. If the edge sits on top of the gingiva rather than under it, saliva will leak through. Use an explorer to gently invert the edge into the sulcus.
+}
+
+::W2Q02:: A patient with controlled hypertension and a history of hyperthyroidism is having a crown preparation. The dentist requests retraction cord. Which cord is contraindicated?{
+=Epinephrine-impregnated cord
+~Aluminum chloride-impregnated cord
+~Plain cotton knitted cord
+~Ferric sulfate-impregnated cord
+####
+Epinephrine cord is contraindicated in patients with cardiovascular disease and hyperthyroidism because of systemic absorption through gingival sulcus tissue. Aluminum chloride is the standard choice for most patients. Plain or non-vasoconstrictor cords are safer alternatives when systemic effects are a concern.
+}
+
+::W2Q03:: For a Class II composite on tooth #4 (distal-occlusal) where contact quality with #5 is critical, which matrix system is generally preferred?{
+=Sectional matrix with a separating ring
+~Tofflemire universal matrix
+~Spot-welded steel band
+~Acetate strip with wedge
+####
+Sectional matrix systems with separating rings produce tighter, more anatomically correct proximal contacts for single Class II composites because the separating ring physically pushes adjacent teeth slightly apart during cure. Tofflemire matrices work well for amalgam and large composites but tend to produce flatter, less tight contacts.
+}
+
+::W2Q04:: The assistant has placed a #1 retraction cord but the gingiva continues to bleed after 5 minutes. The margin is sub-gingival. What's the most appropriate next step?{
+=Switch to a double-cord technique with a thinner deep cord and a thicker top cord
+~Apply more pressure with the cord packer
+~Wait an additional 15 minutes before re-evaluating
+~Use a #3 cord instead — larger is always more effective
+####
+For sub-gingival margins where hemostasis is incomplete, the double-cord technique is the standard solution. A thin (#000) cord goes deep first; a thicker (#1) cord above it provides retraction. The top cord is removed just before impression; the deep cord stays during impression. Excessive pressure with a single cord risks gingival recession.
+}
+
+::W2Q05:: A dental dam is placed for a Class V restoration on tooth #28. The patient says the clamp feels uncomfortably tight. The assistant should:{
+=Remove the clamp and select a smaller or differently-shaped clamp that fits without pinching
+~Apply topical anesthetic and continue with the original clamp
+~Loosen the clamp slightly by rotating it
+~Tell the patient the discomfort will subside after a few minutes
+####
+A clamp that pinches the gingiva indicates it's the wrong size or shape for that tooth. Continuing risks gingival trauma and recession. The correct action is to remove it and select a clamp that fits comfortably without pinching, allowing for both retention and gingival health.
+}
+
+::W2Q06:: When wedging a Class II matrix on tooth #19 (distal), the assistant should insert the wedge from:{
+=The larger embrasure (lingual or buccal, whichever is wider for that tooth)
+~Always from the lingual side
+~Always from the buccal side
+~Wherever the wedge fits with the least resistance
+####
+Wedges should be inserted from the larger embrasure for that specific tooth, which may be buccal or lingual depending on tooth anatomy. Inserting from the wider embrasure allows the wedge to seat without forcing tissue and provides better gingival seal and contact pressure.
+}
+
+::W2Q07:: The dentist is placing a final restoration that will be a resin composite. Which moisture-control method should the assistant prepare?{
+=Dental dam isolation
+~Cotton rolls plus saliva ejector only
+~A high-volume evacuator alone
+~Throat pack with no isolation needed
+####
+Composite restorations require absolutely dry dentin for bonding chemistry to work. Saliva contamination during etch or bond ruins the bond and the restoration debonds within months. Dental dam isolation is the gold standard for composite procedures, especially in posterior teeth where contamination risk is highest.
+}
+
+::W2Q08:: A dental dam is being removed. In what sequence should the steps occur?{
+=Cut the septa between holes → remove the clamp → wipe gingiva → count holes vs. fragments
+~Remove the clamp → cut the septa → wipe gingiva → count fragments
+~Cut the septa → wipe gingiva → remove the clamp → discard
+~Remove the clamp → wipe gingiva → cut the septa → discard
+####
+The correct removal sequence: cut the septa between each pair of holes first (releases the dam from the teeth), remove the clamp with forceps, wipe excess saline/debris from the gingiva, then count holes vs. fragments to confirm nothing was left behind. Counting at the end is the safety check.
+}
+
+::W2Q09:: An EFDA places retraction cord on the distal margin of a crown prep. After 7 minutes of dwell time, the cord is removed but the gingiva immediately re-bleeds and obscures the margin. The dentist is ready to take the impression. The MOST appropriate action is:{
+=Repack the cord briefly and wait an additional 2-3 minutes for hemostasis to return
+~Have the dentist take the impression immediately before more bleeding occurs
+~Apply pressure with cotton gauze and proceed
+~Place a fresh cord and start the dwell time over
+####
+If hemostasis is lost upon cord removal, the right response is to repack briefly and allow another 2-3 minutes for the chemical and mechanical effects to re-establish hemostasis. Impressing through a bleeding margin produces a non-diagnostic impression and the work has to be redone. A full re-pack from scratch is unnecessary if the initial cord placement was correct.
+}
+
+::W2Q10:: Which is the BEST indicator that a Tofflemire matrix band has been correctly positioned before the dentist places restorative material?{
+=The band extends 1 mm above the marginal ridge and 1 mm below the gingival margin, with a tight wedge seal
+~The band is flush with the marginal ridge
+~The band sits at the level of the gingiva
+~The band is held in place by the matrix retainer screw alone
+####
+A correctly positioned Tofflemire band extends approximately 1 mm above the marginal ridge (to allow for proper anatomical contour) and 1 mm below the gingival margin (to seal off the cavity from gingival fluid). The wedge seals the gingival aspect and provides contact pressure against the adjacent tooth. Without the wedge, gingival overhang is likely.
+}

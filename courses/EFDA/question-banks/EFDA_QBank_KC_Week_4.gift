@@ -1,0 +1,95 @@
+// EFDA · Knowledge Check — Week 4 · Preventive Procedures
+// 10 scenario MCQs · GIFT format · Import into Moodle question bank category "KC Week 4"
+// Authored 2026-05-11 · Original content
+
+$CATEGORY: $course$/top/KC Week 4
+
+::W4Q01:: An EFDA is placing a pit-and-fissure sealant on tooth #19. After applying phosphoric acid for 15 seconds and rinsing, the assistant dries the tooth and the etched surface does not appear chalky white. The MOST appropriate action is:{
+=Re-clean the surface with pumice (no fluoride paste), re-isolate, and re-etch
+~Apply the sealant anyway and cure
+~Etch for an additional 30 seconds to compensate
+~Switch to a glass ionomer sealant which doesn't require etching
+####
+Chalky white appearance after rinsing and drying indicates a properly etched surface. If the etch pattern doesn't develop, the surface likely had residual prophy paste or saliva contamination. Re-clean (avoiding fluoride paste, which interferes with bonding), re-isolate, and re-etch. Placing a sealant without a proper etch pattern leads to early loss.
+}
+
+::W4Q02:: A 7-year-old patient is in the chair for fluoride application. The patient has a severe gag reflex and historically has trouble with fluoride trays. Which fluoride delivery vehicle is MOST appropriate?{
+=5% NaF varnish brushed directly onto teeth
+~APF foam in standard pediatric trays
+~APF gel in standard pediatric trays
+~No fluoride this visit — re-schedule
+####
+Fluoride varnish is the ideal choice for patients with gag reflex or behavioral cooperation challenges because it's brushed on, sets quickly in saliva, and doesn't require tray placement. Tray-delivered foam or gel risks aspiration or vomiting in a sensitive patient. Skipping fluoride entirely is not appropriate when a safe alternative is available.
+}
+
+::W4Q03:: Coronal polishing is being performed on a 35-year-old patient with no visible stain and good oral hygiene. Which approach is consistent with current standards?{
+=Selective polishing — polish only surfaces with visible extrinsic stain or plaque
+~Routine full-mouth polishing of every surface
+~Skip polishing entirely for any patient over 30
+~Polish only the lower anterior teeth
+####
+Modern dental practice uses selective polishing — polish only surfaces with visible extrinsic stain or plaque accumulation. Routine full-mouth polishing removes 5-10 μm of fluoride-rich outer enamel per session, stripping a layer that protects against caries without clinical benefit. Patient education + selective polishing is the standard approach.
+}
+
+::W4Q04:: A pit-and-fissure sealant has been placed and cured on tooth #14. The assistant checks the seal with an explorer and finds a small void at the distal extension of the fissure. The MOST appropriate next step is:{
+=Re-etch the unfilled area, place additional sealant material, and re-cure
+~Apply more sealant material directly without re-etching
+~Leave the void — small voids are clinically acceptable
+~Remove the entire sealant and start over
+####
+A void in the sealant exposes that portion of the fissure to caries. The repair process: clean and dry the void area, re-etch the exposed enamel (since the original etch pattern has been compromised by saliva contamination since cure), then place additional sealant and re-cure. Simply adding more material without re-etching won't bond properly.
+}
+
+::W4Q05:: A patient receiving in-office fluoride foam treatment in trays asks if they can swallow. The correct response is:{
+=Do not swallow — saliva ejector is in place, spit out excess after the timer ends, no eating or drinking for 30 minutes
+~Swallowing small amounts is fine
+~Swallowing is required for systemic fluoride benefit
+~Patients should rinse immediately with water after removal
+####
+Patients should not swallow in-office fluoride — the concentrations are far above safe systemic intake. The saliva ejector evacuates excess, the patient spits out residue, and they should avoid eating or drinking for 30 minutes to maintain topical contact. Rinsing immediately would wash away the residual fluoride that continues to work.
+}
+
+::W4Q06:: A high-risk caries patient (multiple active lesions, dry mouth from medication) is being treated. Which combination of preventive procedures is MOST appropriate?{
+=Sealants on at-risk teeth + 5% NaF varnish every 3 months + patient education on at-home fluoride rinse
+~Polishing every 3 months as the primary intervention
+~Once-yearly fluoride application with no other intervention
+~No preventive procedures — focus on restoring existing lesions
+####
+High-risk patients benefit from layered preventive interventions: sealants on susceptible surfaces, more frequent professional fluoride (varnish every 3 months is supported by evidence for high-risk patients), and reinforcement of at-home fluoride exposure. Polishing alone is the weakest intervention and not appropriate as a primary strategy. Restoring existing lesions doesn't address ongoing caries activity.
+}
+
+::W4Q07:: The coronal polishing handpiece is set to slow speed. The assistant adapts the rubber cup to the buccal surface of tooth #12 and applies firm continuous pressure. The patient grimaces and the gingiva looks irritated. What's the error?{
+=Continuous firm pressure is incorrect — use light, intermittent pressure
+~The rubber cup is too soft for that tooth
+~Slow speed is too slow — increase to medium
+~Use prophy paste on a brush instead
+####
+Coronal polishing technique uses LIGHT, INTERMITTENT pressure — not continuous firm pressure. Continuous heavy pressure generates heat (irritating the pulp), damages enamel by abrasive overuse, and traumatizes the gingiva. Adapt the cup, flare slightly under the gingival margin, and move in overlapping strokes with brief pressure.
+}
+
+::W4Q08:: A 10-year-old patient with deep occlusal grooves on the newly erupted permanent first molars (tooth #3, #14, #19, #30) and moderate caries risk is being assessed for sealants. The MOST appropriate decision is:{
+=Place sealants on all four newly erupted permanent molars
+~Sealants only on the molar with visible early caries
+~No sealants — wait until age 12
+~Apply fluoride varnish only — sealants are unnecessary at this age
+####
+Newly erupted permanent molars in moderate-to-high caries risk patients are exactly the indication for sealants. The occlusal pit-and-fissure anatomy of these teeth is the highest-caries-risk surface in childhood. Properly placed sealants reduce occlusal caries by 60-80% over 4 years. Don't wait for a lesion to appear.
+}
+
+::W4Q09:: When mixing fluoride foam into trays, you accidentally overfill — material is overflowing the tray edges. The MOST appropriate action is:{
+=Remove the trays, wipe out excess, and re-load with the manufacturer's recommended amount
+~Seat the trays anyway — excess will be evacuated by the saliva ejector
+~Switch to fluoride gel — gel handles overfill better
+~Reduce the application time to compensate
+####
+Overfilled trays risk fluoride aspiration or swallowing, especially in children. The safe action is to remove, wipe out excess, and reload with the recommended amount. Saliva ejectors handle saliva volume, not excess fluoride material from an overfilled tray. Switching products or shortening time doesn't solve the safety issue.
+}
+
+::W4Q10:: A patient asks why their dentist polishes only some surfaces, not the entire mouth like at past dental offices. The EFDA's best response is:{
+=Modern evidence supports selective polishing because routine full-mouth polishing removes a thin protective enamel layer without clinical benefit
+~The patient's gums are too sensitive for full polishing
+~Insurance limitations have changed
+~The polish wears off too quickly anyway
+####
+Selective polishing is the modern evidence-based standard. Educating the patient about the rationale — protecting the fluoride-rich outer enamel layer that resists caries — reinforces good practice and helps patients understand why preventive care has evolved. Defensive or insurance-based explanations are inappropriate.
+}
