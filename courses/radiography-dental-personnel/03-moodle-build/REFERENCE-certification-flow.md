@@ -38,6 +38,7 @@ Student MUST match ALL of the following:
   AND  Grade: Final Exam — Radiography for Dental Personnel  must be ≥ 75%
   AND  Grade: Capstone Project — Final Submission             must be ≥ 0%   (i.e. graded with any score)
   AND  Activity completion: Clinical Verification Form         must be marked complete
+  AND  Activity completion: End-of-Course Survey               must be marked complete   ← added 2026-05-16
 ```
 
 Notes:

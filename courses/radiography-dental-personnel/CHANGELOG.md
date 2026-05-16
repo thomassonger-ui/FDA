@@ -1,5 +1,26 @@
 # Changelog — Radiography for Dental Personnel
 
+## 2026-05-16 (later 3) — End-of-course survey added (cert-gated)
+
+Anonymous 5-minute Feedback activity added to Week 6. Required before students can download the certificate.
+
+### Live course
+- **NEW activity: `End-of-Course Survey · 5 minutes`** (cmid 303, `mod_feedback`) placed between Self-Reflection Week 6 (cmid 236) and Certification — Course Complete (cmid 207).
+- **6 questions:** 5 multichoice-rated Likert items (course clarity, instructor support, workload accuracy, hands-on usefulness, confidence applying) + 1 long-answer suggestions field. All required, anonymous, single page.
+- **Completion:** student must submit responses to be marked complete.
+- **Google review:** link to `https://share.google/LPPVT68vxuslgXPfw` surfaced in the activity description (before submit) AND the completion message (after submit).
+
+### Certificate gating (cmid 302)
+Added 4th access restriction: Activity completion of cmid 303 must be marked complete. Cert no longer unlocks until the survey is submitted.
+
+### Reference docs added
+- `02-assessments/REFERENCE-end-of-course-survey.md` — full spec: questions verbatim, scales, description text, completion message text, gating relationship, where staff view results, revision cadence, linked decisions.
+
+### Updated
+- `03-moodle-build/REFERENCE-certification-flow.md` — restriction set now lists 4 conditions (was 3); 4th condition annotated with the 2026-05-16 add date.
+
+---
+
 ## 2026-05-16 (later 2) — Typodont limitation documented
 
 Meeting-flagged risk: typodonts are radiolucent and produce no readable X-ray. A student might submit a typodont X-ray as Capstone "proof" thinking it demonstrates competency, when it actually demonstrates nothing. Addressed at three touchpoints.
