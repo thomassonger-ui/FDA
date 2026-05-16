@@ -1,5 +1,20 @@
 # Changelog — Radiography for Dental Personnel
 
+## 2026-05-16 (later) — Capstone submission spec clarified
+
+The Phase-2 Capstone Final Submission page (cmid 238) was revised for clarity. The "Three required components" section was tightened to "What to submit", and two new sections were added: an expanded list of acceptable artifact types and an explicit requirements list.
+
+### Changed
+- **Required components (3)** — wording tightened. Pickable format moved out of #1 ("Pick one of the acceptable artifact types below") so format types and content types don't collide.
+- **NEW: Acceptable artifact types** — 5 categories (Photos of instrument placement on coworker · Dentist-approved anonymized images · Original infographic · Short explainer video · Patient-facing handbook). The Week-5 format choice (Infographic / Short Video / Patient education handout) is preserved as pacing guidance above but no longer the only acceptable types.
+- **NEW: Artifact requirements** — 4 items (original work · demonstrates radiology knowledge · dentist verification may be required for clinical content · no identifiable patient information). Visually amber-tinted to signal compliance rules.
+- **Visual:** three sibling blocks instead of nested cards. Original revision nested the two new cards inside the existing "Three required components" callout — that double-nesting was corrected to flat siblings.
+
+### Reference docs added
+- `02-assessments/REFERENCE-capstone-submission-spec.md` — full spec, including the 4-requirements list, file/format vs artifact-type distinction, and the gating relationship to the certificate activity (cmid 302).
+
+---
+
 ## 2026-05-16 — Automated certification flow + Consumer Info updates
 
 The legacy manual "will be emailed" certification flow on cmid 207 is replaced with an auto-issued, restriction-gated `mod_customcert` activity. The previously flagged issue (Capstone not gating certification) is now resolved.
