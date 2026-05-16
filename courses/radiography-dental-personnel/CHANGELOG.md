@@ -1,5 +1,38 @@
 # Changelog — Radiography for Dental Personnel
 
+## 2026-05-16 — Automated certification flow + Consumer Info updates
+
+The legacy manual "will be emailed" certification flow on cmid 207 is replaced with an auto-issued, restriction-gated `mod_customcert` activity. The previously flagged issue (Capstone not gating certification) is now resolved.
+
+### Certification — new automated flow
+- **NEW activity:** `Download Your Certificate` (cmid 302, `mod_customcert`) added to Week 6 (section 125), positioned after `Certification — Course Complete` (cmid 207).
+- **Template:** loaded from the site-level `Radiography Certificate` template (template id 6). Elements: Background image, Student name (dynamic), Date (dynamic). PDF preview verified.
+- **Access restrictions (AND, all required):**
+  1. Grade: `Final Exam — Radiography for Dental Personnel` (cmid 205, grade item id 66) **≥ 75%**
+  2. Grade: `Capstone Project — Final Submission` (cmid 238, grade item id 80) **≥ 0%** (i.e. *graded* — any score entered)
+  3. Activity completion: `Clinical Verification Form — Florida-Licensed Dentist Sign-Off` (cmid 206) must be marked complete
+- **Instructor override:** standard Moodle gradebook override on any of the three gating items unlocks the cert. No custom override flag — `mod_customcert` re-evaluates restrictions on every page load. Grade history captures the override audit trail.
+- **Authority chain:** Atticus (FIDA app) is downstream — it mirrors Moodle's `cert.issued` state for display/audit only. Revocation authority sits with Moodle (per session role-split decision 2026-05-16).
+
+### Page cmid 207 (`Certification — Course Complete`) — rewritten
+- Removed: legacy "Step 1 Final review → Step 2 Certificate emailed → Step 3 CE record on file" manual issuance flow.
+- Added: teal "Your certificate is ready" callout linking directly to `/mod/customcert/view.php?id=302` (`Download Your Certificate`).
+- Added: explanatory line "Your certificate is auto-issued the moment your Final Exam, Capstone, and Clinical Verification are all on file."
+- Visual structure unchanged (navy hero, FIDA design system).
+
+### Page cmid 184 (`Consumer Information & Transparency Statement`) — content fills
+- **Refund & cancellation policy** section replaced with the official 8-point CIE-aligned policy (cancellation methods · within 3 business days = full refund · before first class = full refund minus ≤$150 registration fee · 0–40% completion = pro-rated · >40% = no refund · termination date methodology · 30-day refund window · textbook return). Footer line: "Florida Institute of Dental Assisting · CIE institution #6501 · Last updated 2026-05-16."
+- **Outcomes (updated annually)** figures replaced. Completion Rate = **100%**, First-Attempt Pass Rate = **95%**, Average Satisfaction = **100%** (current cohort). Was: all three TBD with "first cohort still in progress" subtext.
+
+### Reference docs added
+- `03-moodle-build/REFERENCE-certification-flow.md` — full spec of the cert gating + override paths
+- `00-overview/REFERENCE-consumer-info-page.md` — canonical text of cmid 184 (refund policy, outcomes, licensure note, complaint resolution)
+
+### Supersedes
+- The 2026-05-02 architecture snapshot flag "Capstone Final not gating Certification by default" is now resolved by the cmid 302 restriction set. The snapshot text stays as a point-in-time record; this CHANGELOG entry is the canonical current state.
+
+---
+
 ## 2026-05-02 — Major architecture restructure
 
 The course was restructured from the original 64-hour / 13-module design to a leaner, fully Florida-CE-aligned 14-hour / 6-week / RHS101–RHS105 architecture. **The single source of truth for current state is `ARCHITECTURE_SNAPSHOT_2026-05-02.md` at this folder's root.** Files dated before this snapshot describe the legacy design and are retained for historical reference only.
