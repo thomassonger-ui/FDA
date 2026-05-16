@@ -1,5 +1,19 @@
 # Changelog — Radiography for Dental Personnel
 
+## 2026-05-16 (later 2) — Typodont limitation documented
+
+Meeting-flagged risk: typodonts are radiolucent and produce no readable X-ray. A student might submit a typodont X-ray as Capstone "proof" thinking it demonstrates competency, when it actually demonstrates nothing. Addressed at three touchpoints.
+
+### Live course
+- **Capstone Final Submission (cmid 238)** — neutral-gray "A note on typodonts" callout added between Acceptable artifact types and Artifact requirements. Explains the limitation and lists the four alternative evidence forms (placement photos, dentist verification, anonymized clinical images, original explanatory artifacts).
+- **Capstone Rubric & Self-Check Guide (cmid 239)** — gray clarifier paragraph added under the Content Accuracy criterion: typodont X-rays not acceptable, see submission page for accepted types.
+- **Week 6 Overview (cmid 198)** — small inline note added near the Simulation Prep section: typodonts for placement practice only, real-patient evidence required for Capstone.
+
+### Reference docs added
+- `01-curriculum/REFERENCE-typodont-limitation.md` — canonical explanation of the limitation, when typodonts ARE useful (placement / mounts / instrument handling), what evidence to accept instead, and where the limitation is surfaced in the live course.
+
+---
+
 ## 2026-05-16 (later) — Capstone submission spec clarified
 
 The Phase-2 Capstone Final Submission page (cmid 238) was revised for clarity. The "Three required components" section was tightened to "What to submit", and two new sections were added: an expanded list of acceptable artifact types and an explicit requirements list.
