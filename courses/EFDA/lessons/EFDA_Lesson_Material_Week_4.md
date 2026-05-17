@@ -1,6 +1,6 @@
 # EFDA · Week 4 Lesson Material — Preventive Procedures
 
-**Anchor chapters:** Bird & Robinson 7th ed. Ch 15, 58, 59
+**Anchor chapters:** Robinson 14th ed. Ch 15, 58, 59
 **EFDA codes:** EFDA101 Dental Sealants · EFDA102 Fluoride Placement · EFDA103 Coronal Polishing
 **Status:** Authored 2026-05-11
 
@@ -10,7 +10,7 @@
 
 If you work in a general practice, sealants, fluoride, and coronal polishing are the three procedures you'll perform most often as an EFDA. They are also three of the easiest to do incorrectly without anyone noticing — until the protective benefit disappears within months.
 
-This week ties together caries science (Ch 15) with the hands-on prevention techniques in Ch 58 (polishing) and Ch 59 (sealants). Fluoride doesn't get its own chapter in Bird & Robinson — it's interwoven through caries and preventive content.
+This week ties together caries science (Ch 15) with the hands-on prevention techniques in Ch 58 (polishing) and Ch 59 (sealants). Fluoride doesn't get its own chapter in Robinson — it's interwoven through caries and preventive content.
 
 ---
 
@@ -218,6 +218,6 @@ After reading, complete the Workplace Activity Log (sealant + fluoride + polishi
 
 ---
 
-*Sourced from Bird & Robinson, Essentials of Dental Assisting, 7th ed. (Elsevier, 2017), Chapters 15, 58, 59. Original authored content.*
+*Sourced from Robinson, *Modern Dental Assisting*, 14th ed. (Elsevier, 2024), Chapters 15, 58, 59. Original authored content.*
 
 *Designed by WorldTeachPathways™ (dba WorldTeachESL LLC).*
