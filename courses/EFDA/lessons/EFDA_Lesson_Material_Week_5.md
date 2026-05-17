@@ -1,6 +1,6 @@
 # EFDA · Week 5 Lesson Material — Impressions, Periodontal & Surgery
 
-**Anchor chapters:** Bird & Robinson 7th ed. Ch 46, 55, 56
+**Anchor chapters:** Robinson 14th ed. Ch 46, 55, 56
 **EFDA codes:** EFDA107 Alginate Impressions · EFDA110 Periodontal Dressing · EFDA112 Suture Removal
 **Status:** Authored 2026-05-11
 
@@ -246,6 +246,6 @@ After reading, open the OMS Handbook and Clinical Procedures Pressbook chapters 
 
 ---
 
-*Sourced from Bird & Robinson, Essentials of Dental Assisting, 7th ed. (Elsevier, 2017), Chapters 46, 55, 56. Original authored content.*
+*Sourced from Robinson, *Modern Dental Assisting*, 14th ed. (Elsevier, 2024), Chapters 46, 55, 56. Original authored content.*
 
 *Designed by WorldTeachPathways™ (dba WorldTeachESL LLC).*
