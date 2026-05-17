@@ -2,7 +2,7 @@
 
 **Course:** Expanded Functions Dental Assisting Certification Course (id=16)
 **Section:** Week 1 — Foundations & Infection Control (sectionnum=2)
-**Anchor chapters:** Bird & Robinson 7th ed. Ch 15, 18–24
+**Anchor chapters:** Robinson 14th ed. Ch 15, 18–24
 **Status:** Authored 2026-05-11 — to be injected as Page activity
 
 ---
@@ -263,6 +263,6 @@ After reading, open the two companion Pressbook resources linked on the Overview
 
 ---
 
-*Sourced from Bird & Robinson, Essentials of Dental Assisting, 7th ed. (Elsevier, 2017), Florida Statutes Chapter 466, FAC 64B5, and current CDC and OSHA guidance. Original authored content; no direct copying from any source.*
+*Sourced from Robinson, *Modern Dental Assisting*, 14th ed. (Elsevier, 2024), Florida Statutes Chapter 466, FAC 64B5, and current CDC and OSHA guidance. Original authored content; no direct copying from any source.*
 
 *Designed by WorldTeachPathways™ (dba WorldTeachESL LLC).*
