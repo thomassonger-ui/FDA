@@ -16,7 +16,7 @@
 | 1 | Florida Department of Health Board of Dentistry Approval Letter (June 11, 2021) | Regulatory — confirms approval for Expanded Functions/Radiology Programs, Florida only |
 | 2 | FIDA EFDA Program Outline (filed with FDOE — DOE Form 504, ID#6501) | Governing curriculum & cost structure |
 | 3 | EFDA Employment Verification Form | Pre-enrollment gating document |
-| 4 | Bird & Robinson, *Essentials of Dental Assisting* 7th ed. — 18 chapter lesson plans (Chapters 15, 18–24, 36, 44, 46, 49–51, 55–56, 58–59) | Required textbook + canonical content depth |
+| 4 | Robinson, *Modern Dental Assisting*, 14th ed. — 18 chapter lesson plans (Chapters 15, 18–24, 36, 44, 46, 49–51, 55–56, 58–59) | Required textbook + canonical content depth |
 | 5 | RDP-CE Architecture Snapshot 2026-05-02 | Reference instructional architecture |
 | 6 | FDA Moodle README-MERGED + design system reference | Naming conventions, design system, project standards |
 
@@ -112,7 +112,7 @@ Mirroring RDP-CE structure (course id=14), adapted for a 20-hour, 5-week, EFDA-s
 - Technology & Privacy Settings (Page)
 - HIPAA Acknowledgment (Assignment, instructor-graded e-signature)
 - Supervising Dentist Acknowledgment (Assignment, file upload of completed Employment Verification Form — the regulatory pre-enrollment gate)
-- Required Textbook reminder block (Bird & Robinson, *Essentials of Dental Assisting* 7th ed., ISBN 9780323764025)
+- Required Textbook reminder block (Robinson, *Modern Dental Assisting*, 14th ed., ISBN 978-0-323-82440-8)
 
 **Weekly Module Sections (sections 2–6)** — every weekly section follows the same internal pattern:
 1. **Overview** (Page) — hero card + learning objectives + week pacing + EFDA code badges
@@ -154,7 +154,7 @@ Mirroring RDP-CE structure (course id=14), adapted for a 20-hour, 5-week, EFDA-s
 | **Title** | Foundations: EFDA Scope, Florida Law & Infection Control |
 | **Learning objectives** | 1) State the legal scope of an EFDA in Florida 2) Identify the chain of infection and how to break it at each link 3) Demonstrate proper PPE selection, sequencing, and removal 4) Distinguish cleaning, disinfection, and sterilization 5) Apply CDC and OSHA standards in the dental operatory 6) Recognize regulatory authorities (FL Board, OSHA, CDC, EPA) and their roles |
 | **Competencies covered** | EFDA scope literacy · infection prevention competence (foundational to every later module) |
-| **Theory topics (textbook anchor)** | Bird & Robinson Ch 18 Microbiology · Ch 19 Disease Transmission & Infection Prevention · Ch 20 Disinfection · Ch 21 Sterilization · Ch 22 Regulatory Agencies · Ch 23 Chemical & Waste Management · Ch 24 Dental Unit Waterlines · Ch 15 Dental Caries (foundational context) |
+| **Theory topics (textbook anchor)** | Robinson Ch 18 Microbiology · Ch 19 Disease Transmission & Infection Prevention · Ch 20 Disinfection · Ch 21 Sterilization · Ch 22 Regulatory Agencies · Ch 23 Chemical & Waste Management · Ch 24 Dental Unit Waterlines · Ch 15 Dental Caries (foundational context) |
 | **Clinical concepts** | Hand hygiene timing · PPE donning/doffing sequence · surface barrier vs. wipe-down · instrument processing workflow · biological monitoring · waterline maintenance |
 | **Suggested assessments** | Knowledge Check (10 scenario MCQs, time-limited) · Discussion: "Which step in *your* office's sterilization workflow is the weakest link, and why?" |
 | **Suggested activities** | H5P interactive: chain-of-infection click-through · H5P branching scenario: a contaminated instrument is found mid-procedure — what next? |
@@ -277,7 +277,7 @@ The official outline lists EFDA101→113 in clinical-domain order (preventive �
 - Course materials should reference the Board approval date and ID# in the syllabus and certificate
 
 ### Infection control considerations
-- All H5P scenarios and demonstration videos must reflect current CDC and OSHA guidance, not the textbook publication date (Bird & Robinson 7th ed. is © 2017; verify against current CDC infection-control guidelines for dental settings)
+- All H5P scenarios and demonstration videos must reflect current CDC and OSHA guidance, not the textbook publication date (Robinson 14th ed. is © 2024; verify against current CDC infection-control guidelines for dental settings)
 - Recommend a "last reviewed" date stamp on the infection control module
 
 ### Student documentation requirements (must be collected and retained)
@@ -311,7 +311,7 @@ This boundary mirrors RDP-CE's compliance posture and is critical for regulatory
 | Module 3 in current live course contains unlabeled EFDA104/105/106 content | Medium | Restructure into three labeled modules or one explicitly multi-code module |
 | No EFDA106 Matrices module exists | Medium | Add as a sub-component of Week 2 (this blueprint) |
 | End-of-Course Feedback Survey unconfigured | Low | Configure before launch |
-| Bird & Robinson 7th ed. (2017) currency vs. current CDC/Board guidance | Low-Medium | Cross-check infection control content against current CDC Dental Settings guidance |
+| Robinson 14th ed. (2024) currency vs. current CDC/Board guidance | Low-Medium | Cross-check infection control content against current CDC Dental Settings guidance |
 | No dentist license # verification on Clinical Verification Form | Medium | Add license # field to the form template |
 
 ---
@@ -434,7 +434,7 @@ This three-layer model is the same defensible posture used in RDP-CE.
 - Comparison tables: alginate setting times · fluoride delivery vehicle pros/cons · provisional cement options
 
 ### Downloadable resources
-- Bird & Robinson chapter map (PDF, one page, "which chapter goes with which module")
+- Robinson chapter map (PDF, one page, "which chapter goes with which module")
 - Florida Board EFDA scope quick-reference card (PDF, one page, laminate-able)
 - Procedure Activity Log template (PDF, fillable, dentist sign-off rows for all 13 procedures)
 - Photo Evidence Submission Standards (PDF, one page — anti-PHI rules)
@@ -457,7 +457,7 @@ This three-layer model is the same defensible posture used in RDP-CE.
 | 2 | 5-week cohort cadence vs. self-paced | ✅ 5-week cohort cadence per filed outline |
 | 3 | Pedagogical re-sequencing (infection control first) vs. strict EFDA101→113 | ✅ Pedagogical re-sequencing approved |
 | 4 | Restructure id=9 in place vs. parallel new course shell | ✅ Build fresh in **id=16** (empty shell). Salvage H5P + quizzes from id=9 (do not destroy id=9) |
-| 5 | Build new EFDA Pressbook vs. hybrid sourcing | ✅ Hybrid: Bird & Robinson + Tier 1 OER Pressbooks (link out, mirror RDP-CE pattern) + in-house H5P for gaps |
+| 5 | Build new EFDA Pressbook vs. hybrid sourcing | ✅ Hybrid: Robinson + Tier 1 OER Pressbooks (link out, mirror RDP-CE pattern) + in-house H5P for gaps |
 | 6 | Add a "Foundations" preface module (EFDA Scope, Florida Law) not on filed outline | ✅ Approved — included in Week 1 |
 | 7 | Record-retention policy | ✅ 4 years minimum (matches RDP-CE) |
 
@@ -467,13 +467,13 @@ This three-layer model is the same defensible posture used in RDP-CE.
 
 Three layers, mirroring the RDP-CE pattern (textbook anchor + external Pressbook chapter linked OUT + embedded interactive activity):
 
-1. **Primary textbook:** Bird & Robinson, *Essentials of Dental Assisting*, 7th ed. (Elsevier, ISBN 9780323764025) — students must purchase. Same textbook as RDP-CE, so most students will already own it.
+1. **Primary textbook:** Robinson, *Modern Dental Assisting*, 14th ed. (Elsevier, ISBN 978-0-323-82440-8) — students must purchase. Same textbook as RDP-CE, so most students will already own it.
 2. **External Pressbook activities:** Link OUT from each lesson page (do NOT embed or copy — respects CC license terms, preserves attribution, mirrors how RDP-CE handles DE 115).
 3. **In-house H5P:** Reuse 7 existing H5P assets from id=9 + author 3 new pieces for the gaps (retraction cord, provisional crown, refreshed dental dam interactive).
 
 ### Pressbook chapter mapping per module
 
-| Week | Module | Bird & Robinson chapter anchors | External Pressbook link-out |
+| Week | Module | Robinson chapter anchors | External Pressbook link-out |
 |---|---|---|---|
 | 1 | Foundations & Infection Control | Ch 18 Microbiology · Ch 19 Disease Transmission · Ch 20 Disinfection · Ch 21 Sterilization · Ch 22 Regulatory Agencies · Ch 23 Chemical & Waste · Ch 24 Waterlines · Ch 15 Dental Caries (foundation) | [Introduction to Infection Prevention and Control Practices](https://ecampusontario.pressbooks.pub/introductiontoipcp/) (eCO, CC BY-NC) — full IPC framework · [Dentistry Environment Essentials](https://uq.pressbooks.pub/dentistryenvironment/) (UQ, CC BY-NC) — surgery layout, sterilization area, instruments, consumables |
 | 2 | Patient & Field Preparation (Dam · Cord · Matrices) | Ch 36 Moisture Control · Ch 49 Matrix Systems · Ch 50 Fixed Prosthodontics (retraction sections) | [Restorative Mastery for the Dental Hygienist](https://mhcc.pressbooks.pub/restorativedentistry/) (MHCC, CC BY 4.0) — Tofflemire band/wedge prep · Rubber Dam Setup PDF |
