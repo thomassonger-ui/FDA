@@ -1,6 +1,6 @@
 # EFDA · Week 2 Lesson Material — Patient & Field Preparation
 
-**Anchor chapters:** Bird & Robinson 7th ed. Ch 36, 49, 50
+**Anchor chapters:** Robinson 14th ed. Ch 36, 49, 50
 **EFDA codes:** EFDA106 Matrices · EFDA109 Retraction Cord · EFDA111 Dental Dam
 **Status:** Authored 2026-05-11
 
@@ -217,6 +217,6 @@ After reading, open the Restorative Mastery Pressbook for matrix and dam visuals
 
 ---
 
-*Sourced from Bird & Robinson, Essentials of Dental Assisting, 7th ed. (Elsevier, 2017), Chapters 36, 49, 50. Original authored content; no direct copying.*
+*Sourced from Robinson, *Modern Dental Assisting*, 14th ed. (Elsevier, 2024), Chapters 36, 49, 50. Original authored content; no direct copying.*
 
 *Designed by WorldTeachPathways™ (dba WorldTeachESL LLC).*
