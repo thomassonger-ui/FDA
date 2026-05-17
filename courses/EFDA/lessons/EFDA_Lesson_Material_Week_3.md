@@ -1,6 +1,6 @@
 # EFDA · Week 3 Lesson Material — Restorative Materials & Provisional Care
 
-**Anchor chapters:** Bird & Robinson 7th ed. Ch 44, 50, 51
+**Anchor chapters:** Robinson 14th ed. Ch 44, 50, 51
 **EFDA codes:** EFDA104 Liners/Bases/Bonding · EFDA105 Temporary Restorations · EFDA108 Provisional Crowns
 **Status:** Authored 2026-05-11
 
@@ -188,7 +188,7 @@ Teach the patient:
 
 ## Companion Practice This Week
 
-The Restorative Mastery (MHCC) Pressbook in the Required Reading sidebar has chapters on Placing Composite Restorations, Placing Amalgam Restorations, and Common Problems and Solutions. Open it alongside Bird & Robinson Ch 44, 50, and 51.
+The Restorative Mastery (MHCC) Pressbook in the Required Reading sidebar has chapters on Placing Composite Restorations, Placing Amalgam Restorations, and Common Problems and Solutions. Open it alongside Robinson Ch 44, 50, and 51.
 
 ---
 
@@ -206,6 +206,6 @@ After reading, open the Restorative Mastery Pressbook for placement visuals. The
 
 ---
 
-*Sourced from Bird & Robinson, Essentials of Dental Assisting, 7th ed. (Elsevier, 2017), Chapters 44, 50, 51. Original authored content.*
+*Sourced from Robinson, *Modern Dental Assisting*, 14th ed. (Elsevier, 2024), Chapters 44, 50, 51. Original authored content.*
 
 *Designed by WorldTeachPathways™ (dba WorldTeachESL LLC).*
