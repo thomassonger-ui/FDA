@@ -4,7 +4,7 @@ Central reference repo for the FIDA Moodle build, its courses, and supporting ma
 
 **Client:** Florida Institute of Dental Assisting (Jacksonville, FL) — https://fldentalassisting.com/
 **Contractor:** WorldTeachPathways dba WorldTeachESL / Atticus™
-**Updated:** 2026-05-02
+**Updated:** 2026-05-19
 
 ---
 
@@ -164,4 +164,24 @@ Do NOT create parallel structures.
 
 ## Status
 
-Production system in build phase.
+Production system in active delivery phase.
+
+### Live cohorts (Summer 2026)
+
+- **EFDA — Summer 2026** — `EFDA-S26` — `course id=21` — built 2026-05-19, content-complete clone of EFDA master, in Professional Development, visible, open-ended (self-paced)
+- **RDP-CE — Summer 2026** — `RDP-CE-S26` — `course id=22` — built 2026-05-19, content-complete clone of RDP-CE master, in Professional Development, visible, open-ended (self-paced)
+
+### Master blueprints
+
+- `EFDA` master is now **Expanded Functions Dental Assisting Master Blueprint v1.0** (`course id=16`), hidden from students, source-of-truth for all future EFDA cohorts
+- `RDP-CE` master is now **Radiography for Dental Personnel Master Blueprint v1.0** (`course id=14`), hidden from students, source-of-truth for all future RDP cohorts
+
+### Cohort build pattern (validated 2026-05-19)
+
+Future cohort builds should use **Course Import** (not Course Copy / Backup-Restore):
+
+1. Create empty shell in Professional Development with desired full name + shortname, visibility Show, end date disabled
+2. Open shell → More → Course reuse → Import → select the relevant Master Blueprint → import all defaults
+3. Re-role instructors as Teacher on cohort, no role on Master Blueprint
+
+Detailed build session memory: `memory/2026-05-19_moodle_cohorts_built.md`
